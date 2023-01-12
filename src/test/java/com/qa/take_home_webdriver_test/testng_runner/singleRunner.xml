@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Take Home WebDriver Test Smoke Suite" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="com.qa.take_home_webdriver_test.listeners.ExtentReportListener"/>
+    </listeners>
+
+    <parameter name="browser" value="chrome"/>
+    <test name="Selenium Take Home WebDriver">
+        <classes>
+            <class name="com.qa.take_home_webdriver_test.tests.YourStorePageTest">
+                <methods>
+                    <include name="getCurrencyTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

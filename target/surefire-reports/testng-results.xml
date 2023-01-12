@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-12T13:46:59 EST" name="Take Home WebDriver Test Smoke Suite" finished-at="2023-01-12T13:47:12 EST" duration-ms="12737">
+    <groups>
+    </groups>
+    <test started-at="2023-01-12T13:46:59 EST" name="Selenium Take Home WebDriver" finished-at="2023-01-12T13:47:12 EST" duration-ms="12737">
+      <class name="com.qa.take_home_webdriver_test.tests.YourStorePageTest">
+        <test-method is-config="true" signature="readProperties()[pri:0, instance:com.qa.take_home_webdriver_test.tests.YourStorePageTest@2794eab6]" started-at="2023-01-12T13:46:59 EST" name="readProperties" finished-at="2023-01-12T13:46:59 EST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readProperties -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.YourStorePageTest@2794eab6]" started-at="2023-01-12T13:46:59 EST" name="startUp" finished-at="2023-01-12T13:47:10 EST" duration-ms="10740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="getCurrencyTest()[pri:3, instance:com.qa.take_home_webdriver_test.tests.YourStorePageTest@2794eab6]" started-at="2023-01-12T13:47:10 EST" name="getCurrencyTest" finished-at="2023-01-12T13:47:12 EST" duration-ms="1715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrencyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.YourStorePageTest@2794eab6]" started-at="2023-01-12T13:47:12 EST" name="tearDown" finished-at="2023-01-12T13:47:12 EST" duration-ms="134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getCurrencyTest status=SUCCESS method=YourStorePageTest.getCurrencyTest()[pri:3, instance:com.qa.take_home_webdriver_test.tests.YourStorePageTest@2794eab6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.take_home_webdriver_test.tests.YourStorePageTest -->
+    </test> <!-- Selenium Take Home WebDriver -->
+  </suite> <!-- Take Home WebDriver Test Smoke Suite -->
+</testng-results>
