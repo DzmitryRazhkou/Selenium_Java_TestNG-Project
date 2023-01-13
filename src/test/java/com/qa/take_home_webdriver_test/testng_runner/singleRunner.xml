@@ -11,7 +11,8 @@
             <class name="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest">
                 <methods>
                     <exclude name="loginSuccessTest"/>
-                    <include name="loginFailureTest"/>
+                    <include name="checkBox_1Test"/>
+                    <include name="checkBox_2Test"/>
                 </methods>
             </class>
         </classes>

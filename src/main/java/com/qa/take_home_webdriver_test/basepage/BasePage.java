@@ -21,4 +21,9 @@ public class BasePage {
         log = Logger.getLogger(BasePage.class.getName());
         prop = ConfigReader.initiateProperties();
     }
+
+    public void navigateToPage(String pageUrl) {
+        log.info("User navigates on the " + pageUrl + " page. ");
+        driver.navigate().to(pageUrl);
+    }
 }

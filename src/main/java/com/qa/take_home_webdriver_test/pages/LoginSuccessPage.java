@@ -49,11 +49,6 @@ public class LoginSuccessPage extends BasePage {
     }
 
     // METHODS:
-    public void navigateLoginSuccessPage(String loginSuccessUrl) {
-        log.info("User navigates on the 'LoginSuccess' page. ");
-        driver.navigate().to(loginSuccessUrl);
-    }
-
     public void loginSuccess(String userName, String psw) {
         log.info("User types an username into username field. ");
         getUserNameField().sendKeys(userName);

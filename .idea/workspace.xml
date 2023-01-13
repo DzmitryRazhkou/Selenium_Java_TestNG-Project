@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29c7972d-9606-4948-be80-83bbe2a37aaf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/basepage/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/LoginSuccessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/LoginSuccessPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/YourStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/YourStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/listeners/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/listeners/Listeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Take Home WebDriver Test Smoke Suite/Selenium Take Home WebDriver.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Take Home WebDriver Test Smoke Suite/Selenium Take Home WebDriver.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Take Home WebDriver Test Smoke Suite/Selenium Take Home WebDriver.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Take Home WebDriver Test Smoke Suite/Selenium Take Home WebDriver.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.qa.take_home_webdriver_test.tests.YourStorePageTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Take Home WebDriver Test Smoke Suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +56,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qa.take_home_webdriver_test.tests" />
       <recent name="com.qa.take_home_webdriver_test.pages" />
+      <recent name="com.qa.take_home_webdriver_test.tests" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml">

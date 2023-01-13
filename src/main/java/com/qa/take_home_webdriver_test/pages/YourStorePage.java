@@ -112,14 +112,6 @@ public class YourStorePage extends BasePage {
     }
 
 
-    public LoginPage doNavigateLoginPage() {
-        log.info("User clicks on the my account button. ");
-        getMyAccount().click();
-        log.info("User clicks on the login button. ");
-        getLoginButton().click();
-        log.info("User navigates on the login page. ");
-        return new LoginPage(driver);
-    }
 
 
     //    Navigation Bars:

@@ -1,6 +1,7 @@
 package com.qa.take_home_webdriver_test.tests;
 
 import com.qa.take_home_webdriver_test.basetest.BaseTest;
+import com.qa.take_home_webdriver_test.pages.CheckBoxesPage;
 import com.qa.take_home_webdriver_test.pages.LoginSuccessPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -15,7 +16,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         String successLoginMessageTxt = prop.getProperty("successLoginMsg");
 
         LoginSuccessPage loginSuccessPage = new LoginSuccessPage(driver);
-        loginSuccessPage.navigateLoginSuccessPage(loginSuccessUrl);
+        loginSuccessPage.navigateToPage(loginSuccessUrl);
         loginSuccessPage.loginSuccess(userName, password);
         Assert.assertTrue(loginSuccessPage.successLoginMessage(successLoginMessageTxt));
     }
@@ -28,9 +29,27 @@ public class TakeHomeWebDriverTest extends BaseTest {
         String loginSuccessUrl = prop.getProperty("loginSuccessUrl");
         String invalidPasswordMessageTxt = prop.getProperty("invalidPassword");
 
-        loginSuccessPage.navigateLoginSuccessPage(loginSuccessUrl);
+        loginSuccessPage.navigateToPage(loginSuccessUrl);
         loginSuccessPage.loginSuccess(userName, password);
         Assert.assertTrue(loginSuccessPage.invalidPasswordMessage(invalidPasswordMessageTxt));
+    }
+
+    @Test(priority = 3, groups = {"Smoke"}, description = "User clicks on the 'checkbox 1' .")
+    public void checkBox_1Test() {
+        CheckBoxesPage checkBoxesPage = new CheckBoxesPage(driver);
+        String checkBoxUrl = prop.getProperty("checkBoxUrl");
+
+        checkBoxesPage.navigateToPage(checkBoxUrl);
+        Assert.assertTrue(checkBoxesPage.validateCheckBox_1());
+    }
+
+    @Test(priority = 4, groups = {"Smoke"}, description = "User clicks on the 'checkbox 2' .")
+    public void checkBox_2Test() {
+        CheckBoxesPage checkBoxesPage = new CheckBoxesPage(driver);
+        String checkBoxUrl = prop.getProperty("checkBoxUrl");
+
+        checkBoxesPage.navigateToPage(checkBoxUrl);
+        Assert.assertTrue(checkBoxesPage.validateCheckBox_2());
     }
 
 }
