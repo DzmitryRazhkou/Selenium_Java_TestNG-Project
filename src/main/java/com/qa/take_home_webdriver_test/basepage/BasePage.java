@@ -1,6 +1,7 @@
 package com.qa.take_home_webdriver_test.basepage;
 
 import com.qa.take_home_webdriver_test.constants.Paths;
+import com.qa.take_home_webdriver_test.utils.ConfigReader;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -18,5 +19,6 @@ public class BasePage {
         this.driver = driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(Paths.WEB_DRIVER_WAIT_TIMEOUT));
         log = Logger.getLogger(BasePage.class.getName());
+        prop = ConfigReader.initiateProperties();
     }
 }

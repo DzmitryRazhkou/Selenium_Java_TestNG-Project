@@ -4,5 +4,6 @@
 /Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/main/java/com/qa/take_home_webdriver_test/pages/YourStorePage.java
 /Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/main/java/com/qa/take_home_webdriver_test/utils/ConfigReader.java
 /Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/main/java/com/qa/take_home_webdriver_test/constants/Paths.java
+/Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/main/java/com/qa/take_home_webdriver_test/pages/LoginSuccessPage.java
 /Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/main/java/com/qa/take_home_webdriver_test/basepage/BasePage.java
 /Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/main/java/com/qa/take_home_webdriver_test/pages/LoginPage.java

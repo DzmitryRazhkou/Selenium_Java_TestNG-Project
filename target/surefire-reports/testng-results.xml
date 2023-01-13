@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-12T13:46:59 EST" name="Take Home WebDriver Test Smoke Suite" finished-at="2023-01-12T13:47:12 EST" duration-ms="12737">
+  <suite started-at="2023-01-13T12:52:13 EST" name="Take Home WebDriver Test Smoke Suite" finished-at="2023-01-13T12:52:27 EST" duration-ms="13954">
     <groups>
     </groups>
-    <test started-at="2023-01-12T13:46:59 EST" name="Selenium Take Home WebDriver" finished-at="2023-01-12T13:47:12 EST" duration-ms="12737">
-      <class name="com.qa.take_home_webdriver_test.tests.YourStorePageTest">
-        <test-method is-config="true" signature="readProperties()[pri:0, instance:com.qa.take_home_webdriver_test.tests.YourStorePageTest@2794eab6]" started-at="2023-01-12T13:46:59 EST" name="readProperties" finished-at="2023-01-12T13:46:59 EST" duration-ms="27" status="PASS">
+    <test started-at="2023-01-13T12:52:13 EST" name="Selenium Take Home WebDriver" finished-at="2023-01-13T12:52:27 EST" duration-ms="13954">
+      <class name="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest">
+        <test-method is-config="true" signature="readProperties()[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:13 EST" name="readProperties" finished-at="2023-01-13T12:52:13 EST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readProperties -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.YourStorePageTest@2794eab6]" started-at="2023-01-12T13:46:59 EST" name="startUp" finished-at="2023-01-12T13:47:10 EST" duration-ms="10740" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:13 EST" name="startUp" finished-at="2023-01-13T12:52:21 EST" duration-ms="7926" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,22 +22,48 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="getCurrencyTest()[pri:3, instance:com.qa.take_home_webdriver_test.tests.YourStorePageTest@2794eab6]" started-at="2023-01-12T13:47:10 EST" name="getCurrencyTest" finished-at="2023-01-12T13:47:12 EST" duration-ms="1715" status="PASS">
+        <test-method signature="loginSuccessTest()[pri:1, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:21 EST" name="loginSuccessTest" finished-at="2023-01-13T12:52:22 EST" duration-ms="1572" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getCurrencyTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.YourStorePageTest@2794eab6]" started-at="2023-01-12T13:47:12 EST" name="tearDown" finished-at="2023-01-12T13:47:12 EST" duration-ms="134" status="PASS">
+        </test-method> <!-- loginSuccessTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:22 EST" name="tearDown" finished-at="2023-01-13T12:52:23 EST" duration-ms="120" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getCurrencyTest status=SUCCESS method=YourStorePageTest.getCurrencyTest()[pri:3, instance:com.qa.take_home_webdriver_test.tests.YourStorePageTest@2794eab6] output={null}]]]>
+                <![CDATA[[TestResult name=loginSuccessTest status=SUCCESS method=TakeHomeWebDriverTest.loginSuccessTest()[pri:1, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.take_home_webdriver_test.tests.YourStorePageTest -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:23 EST" name="startUp" finished-at="2023-01-13T12:52:25 EST" duration-ms="2672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="loginFailureTest()[pri:2, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:25 EST" name="loginFailureTest" finished-at="2023-01-13T12:52:27 EST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailureTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:27 EST" name="tearDown" finished-at="2023-01-13T12:52:27 EST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginFailureTest status=SUCCESS method=TakeHomeWebDriverTest.loginFailureTest()[pri:2, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest -->
     </test> <!-- Selenium Take Home WebDriver -->
   </suite> <!-- Take Home WebDriver Test Smoke Suite -->
 </testng-results>

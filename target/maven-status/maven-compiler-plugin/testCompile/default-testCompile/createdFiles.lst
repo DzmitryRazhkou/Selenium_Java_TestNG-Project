@@ -1,5 +1,6 @@
 com/qa/take_home_webdriver_test/listeners/Listeners.class
 com/qa/take_home_webdriver_test/tests/LoginPageTest.class
+com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.class
 com/qa/take_home_webdriver_test/listeners/ExtentReportListener.class
 com/qa/take_home_webdriver_test/listeners/RetryAnalyzer.class
 com/qa/take_home_webdriver_test/tests/YourStorePageTest.class

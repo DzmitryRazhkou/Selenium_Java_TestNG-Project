@@ -9,19 +9,18 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class LoginSuccessPage extends BasePage {
 
-    // LOGIN SUCCESS URL:
-    private static final String LOGIN_SUCCESS_URL = prop.getProperty("loginSuccessUrl");
-
-    // LOCATORS FOR WEB ELEMENTS:
-    private static final By USERNAME_FIELD = By.id(prop.getProperty("userNameLocator"));
-    private static final By PASSWORD_FIELD = By.id(prop.getProperty("passwordLocator"));
-    private static final By LOGIN_BTN = By.className(prop.getProperty("loginBtnLocator"));
-    private static final By SUCCESS_LOGIN_MESSAGE = By.id(prop.getProperty("successLoginMsgLocator"));
 
     // PAGE INITIALIZATION:
     public LoginSuccessPage(WebDriver driver) {
         super(driver);
     }
+
+    // LOCATORS FOR WEB ELEMENTS:
+    private static final By USERNAME_FIELD = By.id("username");
+    private static final By PASSWORD_FIELD = By.id("password");
+    private static final By LOGIN_BTN = By.cssSelector("button[class='radius']");
+    private static final By SUCCESS_LOGIN_MESSAGE = By.id("flash");
+    private static final By INVALID_PASSWORD = By.id("flash-messages");
 
     // WEB ELEMENTS:
     private WebElement getUserNameField() {
@@ -35,19 +34,24 @@ public class LoginSuccessPage extends BasePage {
     }
 
     private WebElement getLoginBtn() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(SUCCESS_LOGIN_MESSAGE));
-        return driver.findElement(SUCCESS_LOGIN_MESSAGE);
-    }
-
-    private WebElement getSuccessLoginMsg() {
         wait.until(ExpectedConditions.presenceOfElementLocated(LOGIN_BTN));
         return driver.findElement(LOGIN_BTN);
     }
 
+    private WebElement getSuccessLoginMsg() {
+        wait.until(ExpectedConditions.presenceOfElementLocated(SUCCESS_LOGIN_MESSAGE));
+        return driver.findElement(SUCCESS_LOGIN_MESSAGE);
+    }
+
+    private WebElement getInvalidPasswordMsg() {
+        wait.until(ExpectedConditions.presenceOfElementLocated(INVALID_PASSWORD));
+        return driver.findElement(INVALID_PASSWORD);
+    }
+
     // METHODS:
-    public void navigateLoginSuccessPage() {
+    public void navigateLoginSuccessPage(String loginSuccessUrl) {
         log.info("User navigates on the 'LoginSuccess' page. ");
-        driver.navigate().to(LOGIN_SUCCESS_URL);
+        driver.navigate().to(loginSuccessUrl);
     }
 
     public void loginSuccess(String userName, String psw) {
@@ -59,11 +63,22 @@ public class LoginSuccessPage extends BasePage {
         getLoginBtn().click();
     }
 
-    public boolean successLoginMessage() {
+    public boolean successLoginMessage(String successLoginMessage) {
         try {
             log.info("User sees an success login message. ");
             System.out.println(" =====> " + getSuccessLoginMsg().getText() + " <===== ");
-            return getSuccessLoginMsg().isDisplayed();
+            return getSuccessLoginMsg().isDisplayed() && getSuccessLoginMsg().getText().replaceAll("×", "").trim().equals(successLoginMessage);
+        } catch (TimeoutException y) {
+            log.warn("Please provide another locator. ");
+            return false;
+        }
+    }
+
+    public boolean invalidPasswordMessage(String invalidPasswordMessage) {
+        try {
+            log.info("User sees an invalid password message. ");
+            System.out.println(" =====> " + getSuccessLoginMsg().getText() + " <===== ");
+            return getInvalidPasswordMsg().isDisplayed() && getInvalidPasswordMsg().getText().replaceAll("×", "").trim().equals(invalidPasswordMessage);
         } catch (TimeoutException y) {
             log.warn("Please provide another locator. ");
             return false;

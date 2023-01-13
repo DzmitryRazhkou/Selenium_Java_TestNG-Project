@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content passed suite-Take_Home_WebDriver_Test_Smoke_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Take_Home_WebDriver_Test_Smoke_Suite" title="com.qa.take_home_webdriver_test.tests.YourStorePageTest" class="method navigator-link" hash-for-method="getCurrencyTest">getCurrencyTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Take_Home_WebDriver_Test_Smoke_Suite" title="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest" class="method navigator-link" hash-for-method="loginFailureTest">loginFailureTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Take_Home_WebDriver_Test_Smoke_Suite" title="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest" class="method navigator-link" hash-for-method="loginSuccessTest">loginSuccessTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Take_Home_WebDriver_Test_Smoke_Suite -->
@@ -121,14 +126,21 @@
           <div class="suite-Take_Home_WebDriver_Test_Smoke_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.take_home_webdriver_test.tests.YourStorePageTest</span>
+              <span class="class-name">com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getCurrencyTest">
-                  </a> <!-- getCurrencyTest -->
-                  <span class="method-name">getCurrencyTest</span>
+                  <a name="loginFailureTest">
+                  </a> <!-- loginFailureTest -->
+                  <span class="method-name">loginFailureTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccessTest">
+                  </a> <!-- loginSuccessTest -->
+                  <span class="method-name">loginSuccessTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -145,15 +157,17 @@
 &lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Take Home WebDriver Test Smoke Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.take_home_webdriver_test.listeners.Listeners&quot;/&gt;
     &lt;listener class-name=&quot;com.qa.take_home_webdriver_test.listeners.ExtentReportListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Selenium Take Home WebDriver&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.take_home_webdriver_test.tests.YourStorePageTest&quot;&gt;
+      &lt;class name=&quot;com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;getCurrencyTest&quot;/&gt;
+          &lt;include name=&quot;loginSuccessTest&quot;/&gt;
+          &lt;include name=&quot;loginFailureTest&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.qa.take_home_webdriver_test.tests.YourStorePageTest --&gt;
+      &lt;/class&gt; &lt;!-- com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Selenium Take Home WebDriver --&gt;
 &lt;/suite&gt; &lt;!-- Take Home WebDriver Test Smoke Suite --&gt;
@@ -193,16 +207,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getCurrencyTest')
-data.setCell(0, 2, 'com.qa.take_home_webdriver_test.tests.YourStorePageTest')
-data.setCell(0, 3, 1715);
+data.setCell(0, 1, 'loginSuccessTest')
+data.setCell(0, 2, 'com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest')
+data.setCell(0, 3, 1572);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginFailureTest')
+data.setCell(1, 2, 'com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest')
+data.setCell(1, 3, 1299);
 window.suiteTableData['Take_Home_WebDriver_Test_Smoke_Suite']= { tableData: data, tableDiv: 'times-div-Take_Home_WebDriver_Test_Smoke_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Take_Home_WebDriver_Test_Smoke_Suite">
               </div> <!-- times-div-Take_Home_WebDriver_Test_Smoke_Suite -->
             </div> <!-- times-div -->
@@ -217,25 +235,13 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Take_Home_WebDriver_Test_Smoke_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">7 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.qa.take_home_webdriver_test.tests.YourStorePageTest</span>
+              <span class="ignored-class-name">com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">featuredTest</span>
-                <br/>
-                <span class="ignored-method-name">adsTest</span>
-                <br/>
-                <span class="ignored-method-name">validateNavigationBarsTest</span>
-                <br/>
-                <span class="ignored-method-name">doClickOnTheLoginPage</span>
-                <br/>
-                <span class="ignored-method-name">validateYourPageLogoTest</span>
-                <br/>
-                <span class="ignored-method-name">adsQuantityTest</span>
-                <br/>
-                <span class="ignored-method-name">validateYourPageTitleTest</span>
+                <span class="ignored-method-name">doLoginValidEmailWrongPswCredentialsTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -247,22 +253,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.take_home_webdriver_test.tests.YourStorePageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">readProperties</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">startUp(chrome)</span>
-                <span class="method-start">63 ms</span>
+                <span class="method-start">246 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">getCurrencyTest</span>
-                <span class="method-start">10890 ms</span>
+                <span class="method-name">loginSuccessTest</span>
+                <span class="method-start">8190 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=getCurrencyTest status=SUCCESS method=YourStorePageTest.getCurrencyTest()[pri:3, in...)</span>
-                <span class="method-start">12629 ms</span>
+                <span class="method-name">tearDown([TestResult name=loginSuccessTest status=SUCCESS method=TakeHomeWebDriverTest.loginSuccessTest()[pri...)</span>
+                <span class="method-start">9767 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startUp(chrome)</span>
+                <span class="method-start">9889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginFailureTest</span>
+                <span class="method-start">12568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginFailureTest status=SUCCESS method=TakeHomeWebDriverTest.loginFailureTest()[pri...)</span>
+                <span class="method-start">13869 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

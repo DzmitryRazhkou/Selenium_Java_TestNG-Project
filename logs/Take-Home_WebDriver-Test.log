@@ -1,10 +1,15 @@
-2023-01-12 23:47:07,068 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-12 23:47:07,069 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-12 23:47:07,070 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-12 23:47:07,070 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-12 23:47:07,070 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2023-01-12 23:47:07,139 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-12 23:47:07,140 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-12 23:47:07,140 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-12 23:47:07,140 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-12 23:47:07,140 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-13 13:05:07,666  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:53 - User navigates on the 'LoginSuccess' page. 
+2023-01-13 13:05:07,763  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:58 - User types an username into username field. 
+2023-01-13 13:05:07,868  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:60 - User types an password into password field. 
+2023-01-13 13:05:07,902  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:62 - User clicks on the 'Login' button. 
+2023-01-13 13:05:07,993  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:79 - User sees an invalid password message. 
+2023-01-13 13:05:08,215 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-13 13:05:08,216 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-13 13:05:08,216 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-13 13:05:08,217 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-13 13:05:08,217 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-13 13:05:08,301 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-13 13:05:08,301 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-13 13:05:08,301 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-13 13:05:08,301 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-13 13:05:08,301 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

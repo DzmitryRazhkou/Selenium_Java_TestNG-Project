@@ -4,5 +4,6 @@ com/qa/take_home_webdriver_test/basepage/BasePage.class
 com/qa/take_home_webdriver_test/utils/ScreenShot.class
 com/qa/take_home_webdriver_test/pages/YourStorePage.class
 com/qa/take_home_webdriver_test/pages/LoginPage.class
+com/qa/take_home_webdriver_test/pages/LoginSuccessPage.class
 com/qa/take_home_webdriver_test/constants/Paths.class
 com/qa/take_home_webdriver_test/utils/ConfigReader.class
