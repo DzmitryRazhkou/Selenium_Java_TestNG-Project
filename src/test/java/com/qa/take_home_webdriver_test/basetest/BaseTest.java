@@ -6,12 +6,14 @@ import com.qa.take_home_webdriver_test.utils.ConfigReader;
 import com.qa.take_home_webdriver_test.utils.ScreenShot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import java.time.Duration;
 import java.util.Properties;
 
-@Listeners(com.qa.take_home_webdriver_test.listeners.Listeners.class)
 public class BaseTest {
     protected WebDriver driver;
     protected static Properties prop;
@@ -31,7 +33,7 @@ public class BaseTest {
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Paths.PAGE_LOAD_TIMEOUT));
-        driver.get(prop.getProperty("base_url"));
+        driver.get(prop.getProperty("baseUrl"));
     }
 
     @AfterMethod
