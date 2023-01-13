@@ -7,11 +7,8 @@
     <list default="true" id="29c7972d-9606-4948-be80-83bbe2a37aaf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/basepage/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/basepage/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/LoginSuccessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/LoginSuccessPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/YourStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/YourStorePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/listeners/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/listeners/Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/CheckBoxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/CheckBoxesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.java" afterDir="false" />
     </list>

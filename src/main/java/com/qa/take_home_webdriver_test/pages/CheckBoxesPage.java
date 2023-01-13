@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class CheckBoxesPage extends BasePage {
 
-
     // PAGE INITIALIZATION:
     public CheckBoxesPage(WebDriver driver) {
         super(driver);
