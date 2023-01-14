@@ -146,4 +146,15 @@ public class TakeHomeWebDriverTest extends BaseTest {
         dynamicLoadingPage.doClickStartBtn();
         Assert.assertTrue(dynamicLoadingPage.isHelloHeaderDisplayed(helloHeaderTxt));
     }
+
+    @Test(priority = 11, groups = {"Smoke"}, description = "User download txt file. ")
+    public void fileDownloadTest() throws InterruptedException {
+        FileDownloadPage fileDownloadPage = new FileDownloadPage(driver);
+        String fileDownloadUrl = prop.getProperty("fileDownloadUrl");
+        String fileName = prop.getProperty("fileName");
+
+        fileDownloadPage.navigateToPage(fileDownloadUrl);
+        fileDownloadPage.fileDownload();
+        Assert.assertTrue(fileDownloadPage.isFileDownloaded(fileName));
+    }
 }
