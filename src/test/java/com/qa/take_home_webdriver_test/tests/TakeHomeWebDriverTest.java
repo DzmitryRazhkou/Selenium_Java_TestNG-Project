@@ -1,12 +1,11 @@
 package com.qa.take_home_webdriver_test.tests;
 
 import com.qa.take_home_webdriver_test.basetest.BaseTest;
-import com.qa.take_home_webdriver_test.pages.CheckBoxesPage;
-import com.qa.take_home_webdriver_test.pages.ContextMenuPage;
-import com.qa.take_home_webdriver_test.pages.DragAndDropPage;
-import com.qa.take_home_webdriver_test.pages.LoginSuccessPage;
+import com.qa.take_home_webdriver_test.pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class TakeHomeWebDriverTest extends BaseTest {
 
@@ -77,5 +76,39 @@ public class TakeHomeWebDriverTest extends BaseTest {
         dragAndDropPage.navigateToPage(dragAndDropUrl);
         dragAndDropPage.doDragAndDrop();
         Assert.assertTrue(dragAndDropPage.validateDragAndDrop(boxA_Txt, boxB_Txt));
+    }
+
+    @Test(priority = 7, groups = {"Smoke"}, description = "User selects options from drop down menu .")
+    public void dropDownTest() {
+        DropDownPage dropDownPage = new DropDownPage(driver);
+        String dropDownUrl = prop.getProperty("dropDownUrl");
+        String value1 = prop.getProperty("value1");
+        String option1 = prop.getProperty("option1");
+        String value2 = prop.getProperty("value2");
+        String option2 = prop.getProperty("option2");
+
+        dropDownPage.navigateToPage(dropDownUrl);
+        String selectOption1 = dropDownPage.doDropDownSelect1(value1);
+        Assert.assertEquals(selectOption1, option1);
+
+        String selectOption2 = dropDownPage.doDropDownSelect2(value2);
+        Assert.assertEquals(selectOption2, option2);
+    }
+
+    @Test(priority = 8, groups = {"Smoke"}, description = "User handles dynamic content .")
+    public void dynamicContentTest() {
+        DynamicContentPage dynamicContentPage = new DynamicContentPage(driver);
+        String dynamicContentUrl = prop.getProperty("dynamicContentUrl");
+        dynamicContentPage.navigateToPage(dynamicContentUrl);
+
+        List<String> imageListBeforeRefreshPage = dynamicContentPage.imagesList();
+        List<String> contentListBeforeRefreshPage = dynamicContentPage.contentList();
+        dynamicContentPage.refreshPage();
+
+        List<String> imageListAfterRefreshPage = dynamicContentPage.imagesList();
+        List<String> contentListAfterRefreshPage = dynamicContentPage.contentList();
+
+        Assert.assertNotEquals(imageListBeforeRefreshPage, imageListAfterRefreshPage);
+        Assert.assertNotEquals(contentListBeforeRefreshPage, contentListAfterRefreshPage);
     }
 }
