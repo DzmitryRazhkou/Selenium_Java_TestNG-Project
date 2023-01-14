@@ -7,24 +7,9 @@
     <list default="true" id="29c7972d-9606-4948-be80-83bbe2a37aaf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.13 18:01:15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.13 18:05:55.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.13 18:07:11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.13 18:09:41.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.13 18:23:04.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.13 18:24:44.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.13 18:25:15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.13 18:27:00.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.13 18:27:13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.13 18:30:38.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/dragAndDropTest_01-13-2023 18:01:15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/dragAndDropTest_01-13-2023 18:05:54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/dragAndDropTest_01-13-2023 18:07:10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/dragAndDropTest_01-13-2023 18:09:40.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/take_home_webdriver_test/pages/DragAndDropPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/take_home_webdriver_test/pages/DragAndDropPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

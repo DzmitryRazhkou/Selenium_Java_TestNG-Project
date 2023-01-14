@@ -111,4 +111,28 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertNotEquals(imageListBeforeRefreshPage, imageListAfterRefreshPage);
         Assert.assertNotEquals(contentListBeforeRefreshPage, contentListAfterRefreshPage);
     }
+
+    @Test(priority = 9, groups = {"Smoke"}, description = "User handles dynamic controls .")
+    public void dynamicControlsTest() {
+        DynamicControlsPage dynamicControlsPage = new DynamicControlsPage(driver);
+        String dynamicControlsUrl = prop.getProperty("dynamicControlsUrl");
+        String removeMsg = prop.getProperty("removeMsg");
+        String addMsg = prop.getProperty("addMsg");
+        String enabled = prop.getProperty("enabled");
+        String disabled = prop.getProperty("disabled");
+
+        dynamicControlsPage.navigateToPage(dynamicControlsUrl);
+        dynamicControlsPage.doClickCheckBox();
+        dynamicControlsPage.doRemoveAddCheckBox();
+        Assert.assertTrue(dynamicControlsPage.isMessageDisplayed(removeMsg));
+
+        dynamicControlsPage.doRemoveAddCheckBox();
+        Assert.assertTrue(dynamicControlsPage.isMessageDisplayed(addMsg));
+
+        dynamicControlsPage.doClickOnEnableDisable();
+        Assert.assertTrue(dynamicControlsPage.isMessageDisplayed(enabled));
+
+        dynamicControlsPage.doClickOnEnableDisable();
+        Assert.assertTrue(dynamicControlsPage.isMessageDisplayed(disabled));
+    }
 }

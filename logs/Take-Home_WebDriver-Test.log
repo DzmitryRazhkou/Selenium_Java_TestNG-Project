@@ -1,24 +1,24 @@
-2023-01-13 22:28:30,345  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/dynamic_content?with_content=static page. 
-2023-01-13 22:28:30,557  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
-2023-01-13 22:28:30,580  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
-2023-01-13 22:28:30,591  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
-2023-01-13 22:28:30,613  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
-2023-01-13 22:28:30,623  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
-2023-01-13 22:28:30,632  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
-2023-01-13 22:28:30,642  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:58 - User refreshes a web page
-2023-01-13 22:28:30,706  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
-2023-01-13 22:28:30,717  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
-2023-01-13 22:28:30,728  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
-2023-01-13 22:28:30,755  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
-2023-01-13 22:28:30,765  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
-2023-01-13 22:28:30,773  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
-2023-01-13 22:28:30,948 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-13 22:28:30,948 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-13 22:28:30,949 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-13 22:28:30,949 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-13 22:28:30,949 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2023-01-13 22:28:31,026 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-13 22:28:31,026 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-13 22:28:31,027 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-13 22:28:31,027 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-13 22:28:31,027 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-14 14:44:26,590  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/dynamic_controls page. 
+2023-01-14 14:44:26,740  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:58 - User clicks on the checkbox. 
+2023-01-14 14:44:26,783  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:63 - User clicks on the 'Remove/Add' button. 
+2023-01-14 14:44:26,813  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:65 - Selenium is waiting for appearing of message. 
+2023-01-14 14:44:29,911  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:48 - User sees 'It's gone!'. 
+2023-01-14 14:44:29,957  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:63 - User clicks on the 'Remove/Add' button. 
+2023-01-14 14:44:29,974  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:65 - Selenium is waiting for appearing of message. 
+2023-01-14 14:44:33,055  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:48 - User sees 'It's back!'. 
+2023-01-14 14:44:33,095  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:70 - User clicks on the 'Enable/Disable' button. 
+2023-01-14 14:44:33,121  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:72 - Selenium is waiting for appearing of message. 
+2023-01-14 14:44:36,214  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:48 - User sees 'It's enabled!'. 
+2023-01-14 14:44:36,253  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:70 - User clicks on the 'Enable/Disable' button. 
+2023-01-14 14:44:36,271  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:72 - Selenium is waiting for appearing of message. 
+2023-01-14 14:44:39,366  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:48 - User sees 'It's disabled!'. 
+2023-01-14 14:44:39,589 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-14 14:44:39,590 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-14 14:44:39,590 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-14 14:44:39,590 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-14 14:44:39,591 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-14 14:44:39,666 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-14 14:44:39,667 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-14 14:44:39,667 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-14 14:44:39,667 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-14 14:44:39,667 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
