@@ -135,4 +135,15 @@ public class TakeHomeWebDriverTest extends BaseTest {
         dynamicControlsPage.doClickOnEnableDisable();
         Assert.assertTrue(dynamicControlsPage.isMessageDisplayed(disabled));
     }
+
+    @Test(priority = 10, groups = {"Smoke"}, description = "User handles dynamic loading page .")
+    public void dynamicLoadingTest() {
+        DynamicLoadingPage dynamicLoadingPage = new DynamicLoadingPage(driver);
+        String dynamicLoadingUrl = prop.getProperty("dynamicLoadingUrl");
+        String helloHeaderTxt = prop.getProperty("helloHeaderTxt");
+
+        dynamicLoadingPage.navigateToPage(dynamicLoadingUrl);
+        dynamicLoadingPage.doClickStartBtn();
+        Assert.assertTrue(dynamicLoadingPage.isHelloHeaderDisplayed(helloHeaderTxt));
+    }
 }
