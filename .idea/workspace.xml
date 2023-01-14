@@ -9,8 +9,11 @@
       <change beforePath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/constants/Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/constants/Paths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/FileDownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/FileDownloadPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/take_home_webdriver_test/constants/Paths.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/take_home_webdriver_test/constants/Paths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/take_home_webdriver_test/pages/FileDownloadPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/take_home_webdriver_test/pages/FileDownloadPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +56,10 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/upload" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.qa.take_home_webdriver_test.pages" />
       <recent name="com.qa.take_home_webdriver_test.tests" />

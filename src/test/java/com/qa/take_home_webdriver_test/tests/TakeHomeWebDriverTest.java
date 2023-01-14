@@ -157,4 +157,15 @@ public class TakeHomeWebDriverTest extends BaseTest {
         fileDownloadPage.fileDownload();
         Assert.assertTrue(fileDownloadPage.isFileDownloaded(fileName));
     }
+
+    @Test(priority = 12, groups = {"Smoke"}, description = "User upload txt file. ")
+    public void fileUploadTest() {
+        FileUploadPage fileUploadPage = new FileUploadPage(driver);
+        String fileUploadUrl = prop.getProperty("fileUploadUrl");
+        String uploadMsg = prop.getProperty("uploadMsg");
+
+        fileUploadPage.navigateToPage(fileUploadUrl);
+        fileUploadPage.fileUpload();
+        Assert.assertTrue(fileUploadPage.isUploadedMsgDisplayed(uploadMsg));
+    }
 }

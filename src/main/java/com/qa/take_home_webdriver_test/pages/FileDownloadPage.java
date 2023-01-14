@@ -17,7 +17,7 @@ public class FileDownloadPage extends BasePage {
     }
 
     // LOCATORS FOR WEB ELEMENTS:
-    private static final By FILE_LINK = By.cssSelector("a[href='download/some-file.txt']");
+    private static final By FILE_LINK = By.cssSelector("a[href='download/upload-file.txt']");
 
     // WEB ELEMENTS:
     private WebElement getFileLink() {
