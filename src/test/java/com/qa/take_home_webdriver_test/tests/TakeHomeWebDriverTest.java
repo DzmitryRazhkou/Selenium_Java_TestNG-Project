@@ -168,4 +168,17 @@ public class TakeHomeWebDriverTest extends BaseTest {
         fileUploadPage.fileUpload();
         Assert.assertTrue(fileUploadPage.isUploadedMsgDisplayed(uploadMsg));
     }
+
+    @Test(priority = 13, groups = {"Smoke"}, description = "User handles floating menu. ")
+    public void floatingMenuTest() {
+        FloatingMenuPage floatingMenuPage = new FloatingMenuPage(driver);
+        String floatingMenuUrl = prop.getProperty("floatingMenuUrl");
+
+        floatingMenuPage.navigateToPage(floatingMenuUrl);
+        floatingMenuPage.scrollDownPage();
+        Assert.assertTrue(floatingMenuPage.isFloatingMenuDisplayed());
+
+        floatingMenuPage.scrollUpPage();
+        Assert.assertTrue(floatingMenuPage.isFloatingMenuDisplayed());
+    }
 }
