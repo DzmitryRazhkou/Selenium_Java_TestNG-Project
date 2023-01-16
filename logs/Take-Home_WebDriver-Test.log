@@ -1,16 +1,17 @@
-2023-01-15 22:07:04,219  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/iframe page. 
-2023-01-15 22:07:04,771  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - User clicks on the cross for closing alert
-2023-01-15 22:07:04,831  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:52 - User switch to the iFrame. 
-2023-01-15 22:07:04,865  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:40 - User clears input box. 
-2023-01-15 22:07:04,885  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:42 - User sends a text into input box. 
-2023-01-15 22:07:04,988  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:59 - User receives 'Zimbabwe' from input box. 
-2023-01-15 22:07:05,160 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-15 22:07:05,160 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-15 22:07:05,161 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-15 22:07:05,161 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-15 22:07:05,161 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2023-01-15 22:07:05,233 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-15 22:07:05,234 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-15 22:07:05,234 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-15 22:07:05,234 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-15 22:07:05,234 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-16 00:43:10,492  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/javascript_alerts page. 
+2023-01-16 00:43:10,605  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:61 - User receives a 'I am a JS Alert' message. 
+2023-01-16 00:43:10,621  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:54 - User receives a 'You successfuly clicked an alert' message. 
+2023-01-16 00:43:10,663  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:61 - User receives a 'I am a JS Confirm' message. 
+2023-01-16 00:43:10,674  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:54 - User receives a 'You clicked: Ok' message. 
+2023-01-16 00:43:10,712  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:66 - User sends 'Crona-Wyman' to the JS prompt. 
+2023-01-16 00:43:10,729  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:54 - User receives a 'You entered: Crona-Wyman' message. 
+2023-01-16 00:43:10,892 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-16 00:43:10,893 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-16 00:43:10,893 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-16 00:43:10,894 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-16 00:43:10,894 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-16 00:43:10,973 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-16 00:43:10,973 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-16 00:43:10,973 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-16 00:43:10,973 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-16 00:43:10,973 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

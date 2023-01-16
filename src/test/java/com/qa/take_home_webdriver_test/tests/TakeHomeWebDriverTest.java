@@ -197,4 +197,38 @@ public class TakeHomeWebDriverTest extends BaseTest {
         iframePage.sendTxt(existingTxt, proposalTxt);
         Assert.assertEquals(iframePage.getInputBoxTxt(), proposalTxt);
     }
+
+    @Test(enabled = false, priority = 15, groups = {"Smoke"}, description = "User handles mouse hover. ")
+    public void mouseHoverPageTest() {
+        MouseHoverPage mouseHoverPage = new MouseHoverPage(driver);
+        String mouseHoverUrl = prop.getProperty("mouseHoverUrl");
+
+        mouseHoverPage.navigateToPage(mouseHoverUrl);
+        mouseHoverPage.areCaptionsDisplayed();
+    }
+
+    @Test(priority = 16, groups = {"Smoke"}, description = "User handles JavaScript alerts. ")
+    public void javaScriptAlertsPageTest() {
+        JavaScriptAlertsPage javaScriptAlertsPage = new JavaScriptAlertsPage(driver);
+        Faker faker = new Faker();
+        String javaScriptAlertsUrl = prop.getProperty("javaScriptAlertsUrl");
+
+        String jsAlertInside = prop.getProperty("jsAlertInsideMsg");
+        String jsAlert = prop.getProperty("jsAlert");
+        String jsConfirmInside = prop.getProperty("jsConfirmInsideMsg");
+        String jsConfirm = prop.getProperty("jsConfirm");
+        String JsPromptSendTxt = faker.company().name();
+        String jsPromptInsideMsg = prop.getProperty("jsPrompt") + " " + JsPromptSendTxt;
+
+        javaScriptAlertsPage.navigateToPage(javaScriptAlertsUrl);
+        javaScriptAlertsPage.clickJSAlert();
+        Assert.assertTrue(javaScriptAlertsPage.jsMessage(jsAlertInside) && javaScriptAlertsPage.getAlertMessage(jsAlert));
+
+        javaScriptAlertsPage.clickJSJsConfirm();
+        Assert.assertTrue(javaScriptAlertsPage.jsMessage(jsConfirmInside) && javaScriptAlertsPage.getAlertMessage(jsConfirm));
+
+        javaScriptAlertsPage.clickJSPrompt();
+        javaScriptAlertsPage.jsPromptSendText(JsPromptSendTxt);
+        Assert.assertTrue(javaScriptAlertsPage.getAlertMessage(jsPromptInsideMsg));
+    }
 }
