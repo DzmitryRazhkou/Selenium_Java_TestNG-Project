@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29c7972d-9606-4948-be80-83bbe2a37aaf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" afterDir="false" />
