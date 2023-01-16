@@ -1,12 +1,32 @@
-2023-01-16 01:47:04,498  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/windows page. 
-2023-01-16 01:47:04,541  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:29 - User clicks on the 'Click Here' link for opening new window. 
-2023-01-16 01:47:04,782 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-16 01:47:04,782 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-16 01:47:04,783 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-16 01:47:04,783 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-16 01:47:04,783 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2023-01-16 01:47:04,866 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-16 01:47:04,867 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-16 01:47:04,867 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-16 01:47:04,867 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-16 01:47:04,867 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-16 02:29:55,366  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/notification_message_rendered page. 
+2023-01-16 02:29:55,408  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:55,599  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:55,699  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:55,796  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:55,897  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:56,078  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:56,180  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:56,283  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:56,394  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:56,501  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:56,609  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-16 02:29:56,690  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-16 02:29:56,690  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-16 02:29:56,691  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-16 02:29:56,691  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-16 02:29:56,691  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
+2023-01-16 02:29:56,691  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
+2023-01-16 02:29:56,691  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
+2023-01-16 02:29:56,691  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
+2023-01-16 02:29:56,691  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
+2023-01-16 02:29:56,691  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
+2023-01-16 02:29:56,853 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-16 02:29:56,854 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-16 02:29:56,854 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-16 02:29:56,855 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-16 02:29:56,855 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-16 02:29:56,937 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-16 02:29:56,938 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-16 02:29:56,938 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-16 02:29:56,938 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-16 02:29:56,938 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

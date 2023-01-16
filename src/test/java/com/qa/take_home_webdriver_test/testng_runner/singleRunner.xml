@@ -11,7 +11,7 @@
             <class name="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest">
                 <methods>
                     <exclude name="loginSuccessTest"/>
-                    <include name="openNewTabUrlTest"/>
+                    <include name="notificationMessageTest"/>
                 </methods>
             </class>
         </classes>

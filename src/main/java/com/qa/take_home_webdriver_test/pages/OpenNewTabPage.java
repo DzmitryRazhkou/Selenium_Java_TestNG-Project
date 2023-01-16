@@ -25,7 +25,7 @@ public class OpenNewTabPage extends BasePage {
     }
 
     // METHODS:
-    public void clickOnTheLink() throws InterruptedException {
+    public void clickOnTheLink() {
         log.info("User clicks on the 'Click Here' link for opening new window. ");
         getClickHere().click();
     }

@@ -243,7 +243,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
     }
 
     @Test(priority = 18, groups = {"Smoke"}, description = "User handles opening a new tab. ")
-    public void openNewTabUrlTest() throws InterruptedException {
+    public void openNewTabTest() {
         OpenNewTabPage openNewTabPage = new OpenNewTabPage(driver);
         String openNewTabUrl = prop.getProperty("openNewTabUrl");
         String pageTitle = prop.getProperty("pageTitle");
@@ -251,5 +251,20 @@ public class TakeHomeWebDriverTest extends BaseTest {
         openNewTabPage.navigateToPage(openNewTabUrl);
         openNewTabPage.clickOnTheLink();
         Assert.assertTrue(openNewTabPage.openNewTab(pageTitle));
+    }
+
+    @Test(priority = 19, groups = {"Smoke"}, description = "User handles notification message. ")
+    public void notificationMessageTest() {
+        NotificationMessagePage notificationMessagePage = new NotificationMessagePage(driver);
+        String notificationMessageUrl = prop.getProperty("notificationMessageUrl");
+        String msg1 = prop.getProperty("msg1");
+        String msg2 = prop.getProperty("msg2");
+        String msg3 = prop.getProperty("msg3");
+        String[] messagesList = {msg1, msg2, msg3};
+        int times = Integer.parseInt(prop.getProperty("times"));
+
+        notificationMessagePage.navigateToPage(notificationMessageUrl);
+        notificationMessagePage.clickOnTheLink();
+        Assert.assertTrue(notificationMessagePage.someMsgDisplayed(messagesList, times));
     }
 }
