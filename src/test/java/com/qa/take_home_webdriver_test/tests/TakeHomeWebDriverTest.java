@@ -199,7 +199,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
     }
 
     @Test(enabled = false, priority = 15, groups = {"Smoke"}, description = "User handles mouse hover. ")
-    public void mouseHoverPageTest() {
+    public void mouseHoverTest() {
         MouseHoverPage mouseHoverPage = new MouseHoverPage(driver);
         String mouseHoverUrl = prop.getProperty("mouseHoverUrl");
 
@@ -208,7 +208,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
     }
 
     @Test(priority = 16, groups = {"Smoke"}, description = "User handles JavaScript alerts. ")
-    public void javaScriptAlertsPageTest() {
+    public void javaScriptAlertsTest() {
         JavaScriptAlertsPage javaScriptAlertsPage = new JavaScriptAlertsPage(driver);
         Faker faker = new Faker();
         String javaScriptAlertsUrl = prop.getProperty("javaScriptAlertsUrl");
@@ -230,5 +230,15 @@ public class TakeHomeWebDriverTest extends BaseTest {
         javaScriptAlertsPage.clickJSPrompt();
         javaScriptAlertsPage.jsPromptSendText(JsPromptSendTxt);
         Assert.assertTrue(javaScriptAlertsPage.getAlertMessage(jsPromptInsideMsg));
+    }
+
+    @Test(priority = 17, groups = {"Smoke"}, description = "User handles JavaScript error. ")
+    public void javaScriptErrorTest() {
+        JavaScriptErrorPage javaScriptErrorPage = new JavaScriptErrorPage(driver);
+        String javaScriptErrorUrl = prop.getProperty("javaScriptErrorUrl");
+        String errorMsg = prop.getProperty("errorMsg");
+
+        javaScriptErrorPage.navigateToPage(javaScriptErrorUrl);
+        Assert.assertTrue(javaScriptErrorPage.checkForErrorInLogs(errorMsg));
     }
 }

@@ -1,17 +1,11 @@
-2023-01-16 00:43:10,492  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/javascript_alerts page. 
-2023-01-16 00:43:10,605  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:61 - User receives a 'I am a JS Alert' message. 
-2023-01-16 00:43:10,621  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:54 - User receives a 'You successfuly clicked an alert' message. 
-2023-01-16 00:43:10,663  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:61 - User receives a 'I am a JS Confirm' message. 
-2023-01-16 00:43:10,674  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:54 - User receives a 'You clicked: Ok' message. 
-2023-01-16 00:43:10,712  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:66 - User sends 'Crona-Wyman' to the JS prompt. 
-2023-01-16 00:43:10,729  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:54 - User receives a 'You entered: Crona-Wyman' message. 
-2023-01-16 00:43:10,892 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-16 00:43:10,893 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-16 00:43:10,893 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-16 00:43:10,894 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-16 00:43:10,894 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2023-01-16 00:43:10,973 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-16 00:43:10,973 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-16 00:43:10,973 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-16 00:43:10,973 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-16 00:43:10,973 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-16 01:06:36,128  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/javascript_error page. 
+2023-01-16 01:06:36,361 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-16 01:06:36,362 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-16 01:06:36,362 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-16 01:06:36,362 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-16 01:06:36,363 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-16 01:06:36,450 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-16 01:06:36,451 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-16 01:06:36,451 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-16 01:06:36,451 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-16 01:06:36,451 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
