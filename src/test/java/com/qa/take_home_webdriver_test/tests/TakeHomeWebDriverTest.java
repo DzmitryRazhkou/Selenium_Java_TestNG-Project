@@ -241,4 +241,15 @@ public class TakeHomeWebDriverTest extends BaseTest {
         javaScriptErrorPage.navigateToPage(javaScriptErrorUrl);
         Assert.assertTrue(javaScriptErrorPage.checkForErrorInLogs(errorMsg));
     }
+
+    @Test(priority = 18, groups = {"Smoke"}, description = "User handles opening a new tab. ")
+    public void openNewTabUrlTest() throws InterruptedException {
+        OpenNewTabPage openNewTabPage = new OpenNewTabPage(driver);
+        String openNewTabUrl = prop.getProperty("openNewTabUrl");
+        String pageTitle = prop.getProperty("pageTitle");
+
+        openNewTabPage.navigateToPage(openNewTabUrl);
+        openNewTabPage.clickOnTheLink();
+        Assert.assertTrue(openNewTabPage.openNewTab(pageTitle));
+    }
 }
