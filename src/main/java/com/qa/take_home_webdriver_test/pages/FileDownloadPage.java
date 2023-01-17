@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.io.File;
+import java.util.List;
 
 public class FileDownloadPage extends BasePage {
 
@@ -17,19 +18,30 @@ public class FileDownloadPage extends BasePage {
     }
 
     // LOCATORS FOR WEB ELEMENTS:
-    private static final By FILE_LINK = By.cssSelector("a[href='download/upload-file.txt']");
+    private static final By FILE_LINK = By.cssSelector("div[id='content'] div a");
 
     // WEB ELEMENTS:
-    private WebElement getFileLink() {
+    private List<WebElement> getFileLink() {
         wait.until(ExpectedConditions.elementToBeClickable(FILE_LINK));
-        return driver.findElement(FILE_LINK);
+        return driver.findElements(FILE_LINK);
     }
 
     // METHODS:
-    public void fileDownload() throws InterruptedException {
-        log.info("User clicks on the file link for downloading file. ");
-        getFileLink().click();
-        log.info("User is waiting for while file download. ");
+    private void clickLink(String fileName) {
+        List<WebElement> listOfFiles = getFileLink();
+        for (WebElement s : listOfFiles) {
+            log.info("User is searching the '" + fileName + "' list of file links. ");
+            if (s.getText().equals(fileName)) {
+                log.info("User clicks on the file link for downloading file. ");
+                s.click();
+                break;
+            }
+        }
+    }
+
+    public void fileDownload(String fileName) throws InterruptedException {
+        clickLink(fileName);
+        log.info("User is waiting while file downloads. ");
         Thread.sleep(2000); // We can create a custom waiter here, but for saving time purpose we will leave like that
     }
 
@@ -40,7 +52,7 @@ public class FileDownloadPage extends BasePage {
         assert list != null;
         for (File s : list) {
             if (s.getName().contains(fileName)) {
-                System.out.println(" =====> The downloaded file name is " + fileName + " <===== ");
+                System.out.println(" =====> The downloaded file name is '" + fileName + "' <===== ");
                 return true;
             }
         }

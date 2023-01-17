@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class LoginSuccessPage extends BasePage {
 
-
     // PAGE INITIALIZATION:
     public LoginSuccessPage(WebDriver driver) {
         super(driver);
@@ -20,7 +19,7 @@ public class LoginSuccessPage extends BasePage {
     private static final By PASSWORD_FIELD = By.id("password");
     private static final By LOGIN_BTN = By.cssSelector("button[class='radius']");
     private static final By SUCCESS_LOGIN_MESSAGE = By.id("flash");
-    private static final By INVALID_PASSWORD = By.id("flash-messages");
+    private static final By INVALID_PASSWORD_MESSAGE = By.id("flash-messages");
 
     // WEB ELEMENTS:
     private WebElement getUserNameField() {
@@ -44,8 +43,8 @@ public class LoginSuccessPage extends BasePage {
     }
 
     private WebElement getInvalidPasswordMsg() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(INVALID_PASSWORD));
-        return driver.findElement(INVALID_PASSWORD);
+        wait.until(ExpectedConditions.presenceOfElementLocated(INVALID_PASSWORD_MESSAGE));
+        return driver.findElement(INVALID_PASSWORD_MESSAGE);
     }
 
     // METHODS:

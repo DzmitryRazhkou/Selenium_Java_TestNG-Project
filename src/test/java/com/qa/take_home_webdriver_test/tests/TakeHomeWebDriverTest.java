@@ -36,25 +36,17 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertTrue(loginSuccessPage.invalidPasswordMessage(invalidPasswordMessageTxt));
     }
 
-    @Test(priority = 3, groups = {"Smoke"}, description = "User clicks on the 'checkbox 1' .")
-    public void checkBox_1Test() {
+    @Test(priority = 3, groups = {"Smoke"}, description = "User checks/unchecks checkboxes.")
+    public void checkBoxTest() {
         CheckBoxesPage checkBoxesPage = new CheckBoxesPage(driver);
         String checkBoxUrl = prop.getProperty("checkBoxUrl");
 
         checkBoxesPage.navigateToPage(checkBoxUrl);
-        Assert.assertTrue(checkBoxesPage.validateCheckBox_1());
+        Assert.assertTrue(checkBoxesPage.clickCheckBox1());
+        Assert.assertTrue(checkBoxesPage.clickCheckBox2());
     }
 
-    @Test(priority = 4, groups = {"Smoke"}, description = "User clicks on the 'checkbox 2' .")
-    public void checkBox_2Test() {
-        CheckBoxesPage checkBoxesPage = new CheckBoxesPage(driver);
-        String checkBoxUrl = prop.getProperty("checkBoxUrl");
-
-        checkBoxesPage.navigateToPage(checkBoxUrl);
-        Assert.assertTrue(checkBoxesPage.validateCheckBox_2());
-    }
-
-    @Test(priority = 5, groups = {"Smoke"}, description = "User performs right-click and handles javascript alert .")
+    @Test(priority = 4, groups = {"Smoke"}, description = "User performs right-click and handles a javascript alert.")
     public void contextMenuTest() {
         ContextMenuPage contextMenuPage = new ContextMenuPage(driver);
         String contextMenuUrl = prop.getProperty("contextMenuUrl");
@@ -67,7 +59,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
 
     }
 
-    @Test(priority = 6, groups = {"Smoke"}, description = "User does drag and drop boxes .")
+    @Test(priority = 5, groups = {"Smoke"}, description = "User does drag and drop boxes .")
     public void dragAndDropTest() {
         DragAndDropPage dragAndDropPage = new DragAndDropPage(driver);
         String dragAndDropUrl = prop.getProperty("dragAndDropUrl");
@@ -79,24 +71,22 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertTrue(dragAndDropPage.validateDragAndDrop(boxA_Txt, boxB_Txt));
     }
 
-    @Test(priority = 7, groups = {"Smoke"}, description = "User selects options from drop down menu .")
+    @Test(priority = 6, groups = {"Smoke"}, description = "User selects options from drop down menu .")
     public void dropDownTest() {
         DropDownPage dropDownPage = new DropDownPage(driver);
         String dropDownUrl = prop.getProperty("dropDownUrl");
-        String value1 = prop.getProperty("value1");
         String option1 = prop.getProperty("option1");
-        String value2 = prop.getProperty("value2");
         String option2 = prop.getProperty("option2");
 
         dropDownPage.navigateToPage(dropDownUrl);
-        String selectOption1 = dropDownPage.doDropDownSelect1(value1);
-        Assert.assertEquals(selectOption1, option1);
+        dropDownPage.doDropDownSelect(option1);
+        Assert.assertTrue(dropDownPage.getDropDownSelectedTxt(option1));
 
-        String selectOption2 = dropDownPage.doDropDownSelect2(value2);
-        Assert.assertEquals(selectOption2, option2);
+        dropDownPage.doDropDownSelect(option2);
+        Assert.assertTrue(dropDownPage.getDropDownSelectedTxt(option2));
     }
 
-    @Test(priority = 8, groups = {"Smoke"}, description = "User handles dynamic content .")
+    @Test(priority = 7, groups = {"Smoke"}, description = "User handles dynamic content. ")
     public void dynamicContentTest() {
         DynamicContentPage dynamicContentPage = new DynamicContentPage(driver);
         String dynamicContentUrl = prop.getProperty("dynamicContentUrl");
@@ -113,7 +103,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertNotEquals(contentListBeforeRefreshPage, contentListAfterRefreshPage);
     }
 
-    @Test(priority = 9, groups = {"Smoke"}, description = "User handles dynamic controls .")
+    @Test(priority = 8, groups = {"Smoke"}, description = "User handles dynamic controls. ")
     public void dynamicControlsTest() {
         DynamicControlsPage dynamicControlsPage = new DynamicControlsPage(driver);
         String dynamicControlsUrl = prop.getProperty("dynamicControlsUrl");
@@ -137,7 +127,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertTrue(dynamicControlsPage.isMessageDisplayed(disabled));
     }
 
-    @Test(priority = 10, groups = {"Smoke"}, description = "User handles dynamic loading page .")
+    @Test(priority = 9, groups = {"Smoke"}, description = "User handles dynamic loading page .")
     public void dynamicLoadingTest() {
         DynamicLoadingPage dynamicLoadingPage = new DynamicLoadingPage(driver);
         String dynamicLoadingUrl = prop.getProperty("dynamicLoadingUrl");
@@ -148,18 +138,18 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertTrue(dynamicLoadingPage.isHelloHeaderDisplayed(helloHeaderTxt));
     }
 
-    @Test(priority = 11, groups = {"Smoke"}, description = "User download txt file. ")
+    @Test(priority = 10, groups = {"Smoke"}, description = "User downloads the txt file. ")
     public void fileDownloadTest() throws InterruptedException {
         FileDownloadPage fileDownloadPage = new FileDownloadPage(driver);
         String fileDownloadUrl = prop.getProperty("fileDownloadUrl");
         String fileName = prop.getProperty("fileName");
 
         fileDownloadPage.navigateToPage(fileDownloadUrl);
-        fileDownloadPage.fileDownload();
+        fileDownloadPage.fileDownload(fileName);
         Assert.assertTrue(fileDownloadPage.isFileDownloaded(fileName));
     }
 
-    @Test(priority = 12, groups = {"Smoke"}, description = "User upload txt file. ")
+    @Test(priority = 11, groups = {"Smoke"}, description = "User uploads the txt file. ")
     public void fileUploadTest() {
         FileUploadPage fileUploadPage = new FileUploadPage(driver);
         String fileUploadUrl = prop.getProperty("fileUploadUrl");
@@ -170,7 +160,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertTrue(fileUploadPage.isUploadedMsgDisplayed(uploadMsg));
     }
 
-    @Test(priority = 13, groups = {"Smoke"}, description = "User handles floating menu. ")
+    @Test(priority = 12, groups = {"Smoke"}, description = "User handles floating menu. ")
     public void floatingMenuTest() {
         FloatingMenuPage floatingMenuPage = new FloatingMenuPage(driver);
         String floatingMenuUrl = prop.getProperty("floatingMenuUrl");
@@ -183,7 +173,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertTrue(floatingMenuPage.isFloatingMenuDisplayed());
     }
 
-    @Test(priority = 14, groups = {"Smoke"}, description = "User handles iframe web element. ")
+    @Test(priority = 13, groups = {"Smoke"}, description = "User handles iframe web element. ")
     public void iframeTest() {
         IframePage iframePage = new IframePage(driver);
         Faker faker = new Faker();
@@ -198,7 +188,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertEquals(iframePage.getInputBoxTxt(), proposalTxt);
     }
 
-    @Test(enabled = false, priority = 15, groups = {"Smoke"}, description = "User handles mouse hover. ")
+    @Test(enabled = false, groups = {"Smoke"}, description = "User handles mouse hover. ")
     public void mouseHoverTest() {
         MouseHoverPage mouseHoverPage = new MouseHoverPage(driver);
         String mouseHoverUrl = prop.getProperty("mouseHoverUrl");
@@ -207,7 +197,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         mouseHoverPage.areCaptionsDisplayed();
     }
 
-    @Test(priority = 16, groups = {"Smoke"}, description = "User handles JavaScript alerts. ")
+    @Test(priority = 15, groups = {"Smoke"}, description = "User handles JavaScript alerts. ")
     public void javaScriptAlertsTest() {
         JavaScriptAlertsPage javaScriptAlertsPage = new JavaScriptAlertsPage(driver);
         Faker faker = new Faker();
@@ -232,7 +222,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertTrue(javaScriptAlertsPage.getAlertMessage(jsPromptInsideMsg));
     }
 
-    @Test(priority = 17, groups = {"Smoke"}, description = "User handles JavaScript error. ")
+    @Test(priority = 16, groups = {"Smoke"}, description = "User handles JavaScript error. ")
     public void javaScriptErrorTest() {
         JavaScriptErrorPage javaScriptErrorPage = new JavaScriptErrorPage(driver);
         String javaScriptErrorUrl = prop.getProperty("javaScriptErrorUrl");
@@ -242,7 +232,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertTrue(javaScriptErrorPage.checkForErrorInLogs(errorMsg));
     }
 
-    @Test(priority = 18, groups = {"Smoke"}, description = "User handles opening a new tab. ")
+    @Test(priority = 17, groups = {"Smoke"}, description = "User handles opening a new tab. ")
     public void openNewTabTest() {
         OpenNewTabPage openNewTabPage = new OpenNewTabPage(driver);
         String openNewTabUrl = prop.getProperty("openNewTabUrl");
@@ -253,7 +243,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertTrue(openNewTabPage.openNewTab(pageTitle));
     }
 
-    @Test(priority = 19, groups = {"Smoke"}, description = "User handles notification message. ")
+    @Test(priority = 18, groups = {"Smoke"}, description = "User handles notification messages. ")
     public void notificationMessageTest() {
         NotificationMessagePage notificationMessagePage = new NotificationMessagePage(driver);
         String notificationMessageUrl = prop.getProperty("notificationMessageUrl");

@@ -36,7 +36,7 @@ public class OpenNewTabPage extends BasePage {
         Set<String> allWindows = driver.getWindowHandles();
 
         int count = allWindows.size();
-        System.out.println("Total windows is" + count);
+        System.out.println("Total windows is " + count);
 
         for (String child : allWindows) {
             if (!parent.equalsIgnoreCase(child)) {

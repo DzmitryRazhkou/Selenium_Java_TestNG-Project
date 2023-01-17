@@ -32,7 +32,7 @@ public class DynamicLoadingPage extends BasePage {
     // METHODS:
     public boolean isHelloHeaderDisplayed(String message) {
         try {
-            log.info("User sees '" + message + "'. ");
+            log.info("User can see '" + message + "'. ");
             System.out.println(" =====> " + getHelloHeader().getText() + " <===== ");
             return getHelloHeader().isDisplayed() && getHelloHeader().getText().equals(message);
         } catch (TimeoutException y) {

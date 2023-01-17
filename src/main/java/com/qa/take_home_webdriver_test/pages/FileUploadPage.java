@@ -8,8 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import java.io.File;
-
 public class FileUploadPage extends BasePage {
 
     // PAGE INITIALIZATION:
@@ -48,7 +46,7 @@ public class FileUploadPage extends BasePage {
 
     public boolean isUploadedMsgDisplayed(String message) {
         try {
-            log.info("User sees '" + message + "'. ");
+            log.info("User can see '" + message + "'. ");
             System.out.println(" =====> " + getFileUploadedMsg().getText() + " <===== ");
             return getFileUploadedMsg().isDisplayed() && getFileUploadedMsg().getText().equals(message);
         } catch (TimeoutException y) {

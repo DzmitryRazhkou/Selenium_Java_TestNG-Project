@@ -15,52 +15,52 @@ public class CheckBoxesPage extends BasePage {
     }
 
     // LOCATORS FOR WEB ELEMENTS:
-    private static final By CHECKBOX_1 = By.cssSelector("input[type='checkbox']:first-of-type");
-    private static final By CHECKBOX_2 = By.cssSelector("input[type='checkbox']:last-of-type");
+    private static final By CHECKBOX1 = By.cssSelector("input[type='checkbox']:first-of-type");
+    private static final By CHECKBOX2 = By.cssSelector("input[type='checkbox']:last-of-type");
 
 
     // WEB ELEMENTS:
-    private WebElement getCheckBox_1() {
-        wait.until(ExpectedConditions.elementToBeClickable(CHECKBOX_1));
-        return driver.findElement(CHECKBOX_1);
+    private WebElement getCheckBox1() {
+        wait.until(ExpectedConditions.elementToBeClickable(CHECKBOX1));
+        return driver.findElement(CHECKBOX1);
     }
 
-    private WebElement getCheckBox_2() {
-        wait.until(ExpectedConditions.elementToBeClickable(CHECKBOX_2));
-        return driver.findElement(CHECKBOX_2);
+    private WebElement getCheckBox2() {
+        wait.until(ExpectedConditions.elementToBeClickable(CHECKBOX2));
+        return driver.findElement(CHECKBOX2);
     }
 
     // METHODS:
-    public boolean validateCheckBox_1() {
+    public boolean clickCheckBox1() {
         try {
-            if (!getCheckBox_1().isSelected() && getCheckBox_1().isDisplayed()) {
+            if (!getCheckBox1().isSelected() && getCheckBox1().isDisplayed()) {
                 log.info("User clicks on the 'checkbox 1'");
-                getCheckBox_1().click();
+                getCheckBox1().click();
             } else {
                 log.info("User undoes click on the 'checkbox 1'");
-                getCheckBox_1().click();
+                getCheckBox1().click();
             }
         } catch (TimeoutException y) {
             log.warn("Please provide another locator. ");
             return false;
         }
-        return getCheckBox_1().isSelected() || !getCheckBox_1().isSelected();
+        return getCheckBox1().isSelected() || !getCheckBox1().isSelected();
     }
 
-    public boolean validateCheckBox_2() {
+    public boolean clickCheckBox2() {
         try {
-            if (!getCheckBox_2().isSelected() && getCheckBox_2().isDisplayed()) {
-                log.info("User clicks on the 'checkbox 2'");
-                getCheckBox_2().click();
-            } else {
+            if (getCheckBox2().isSelected() && getCheckBox2().isDisplayed()) {
                 log.info("User undoes click on the 'checkbox 2'");
-                getCheckBox_2().click();
+                getCheckBox2().click();
+            } else {
+                log.info("User clicks on the 'checkbox 2'");
+                getCheckBox2().click();
             }
         } catch (TimeoutException y) {
             log.warn("Please provide another locator. ");
             return false;
         }
-        return getCheckBox_2().isSelected() || !getCheckBox_2().isSelected();
+        return getCheckBox2().isSelected() || !getCheckBox2().isSelected();
     }
 
 }

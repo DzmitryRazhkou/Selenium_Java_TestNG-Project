@@ -37,28 +37,31 @@ public class JavaScriptAlertsPage extends BasePage {
 
     // METHODS:
     public void clickJSAlert() {
+        log.info("User clicks on the '" + getJsAlert().getText() + "' button. ");
         getJsAlert().click();
     }
 
     public void clickJSJsConfirm() {
+        log.info("User clicks on the '" + getJsConfirm().getText() + "' button. ");
         getJsConfirm().click();
     }
 
     public void clickJSPrompt() {
+        log.info("User clicks on the '" + getJsPrompt().getText() + "' button. ");
         getJsPrompt().click();
     }
 
     public boolean getAlertMessage(String txt) {
         wait.until(ExpectedConditions.presenceOfElementLocated(ALERT_MSG));
         String alertTxt = driver.findElement(ALERT_MSG).getText();
-        log.info("User receives a '" + txt + "' message. ");
+        log.info("User receives '" + txt + "' message. ");
         return alertTxt.contains(txt);
     }
 
     public boolean jsMessage(String txt) {
         String messageJsTxt = driver.switchTo().alert().getText();
         driver.switchTo().alert().accept();
-        log.info("User receives a '" + messageJsTxt + "' message. ");
+        log.info("User receives '" + messageJsTxt + "' message. ");
         return messageJsTxt.contains(txt);
     }
 
@@ -67,6 +70,7 @@ public class JavaScriptAlertsPage extends BasePage {
         driver.switchTo().alert().sendKeys(txt);
         driver.switchTo().alert().accept();
     }
+
 }
 
 

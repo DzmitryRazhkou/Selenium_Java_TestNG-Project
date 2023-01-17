@@ -47,7 +47,7 @@ public class FloatingMenuPage extends BasePage {
                 flag = element.isDisplayed();
             }
         }
-        log.info("Floating menu is displayed");
+        log.info("Floating menu is displayed. ");
         return flag;
     }
 }

@@ -5,7 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
 
 public class DropDownPage extends BasePage {
 
@@ -15,32 +16,38 @@ public class DropDownPage extends BasePage {
     }
 
     // LOCATORS FOR WEB ELEMENTS:
-    private static final By DROP_DOWN = By.id("dropdown");
+    private static final By DROP_DOWN = By.cssSelector("select[id='dropdown'] option");
 
     // WEB ELEMENTS:
-    private WebElement getDropDown() {
-        wait.until(ExpectedConditions.elementToBeClickable(DROP_DOWN));
-        return driver.findElement(DROP_DOWN);
+    private List<WebElement> getDropDown() {
+        wait.until(ExpectedConditions.presenceOfElementLocated(DROP_DOWN));
+        return driver.findElements(DROP_DOWN);
     }
 
 
     // METHODS:
-    public String doDropDownSelect1(String value1) {
-        Select dropDown = new Select(getDropDown());
-        log.info("User selects the first option from drop down. ");
-        dropDown.selectByValue(value1);
-        dropDown.getOptions();
-
-        return dropDown.getFirstSelectedOption().getText();
+    public void doDropDownSelect(String option) {
+        List<WebElement> listOfOptions = getDropDown();
+        for (WebElement op : listOfOptions) {
+            if (op.getText().contains(option)) {
+                log.info("User selects the '" + option + "' from drop down menu. ");
+                op.click();
+            }
+        }
     }
 
-    public String doDropDownSelect2(String value2) {
-        Select dropDown = new Select(getDropDown());
-        log.info("User selects the second option from drop down. ");
-        dropDown.selectByValue(value2);
-        dropDown.getOptions();
-
-        return dropDown.getFirstSelectedOption().getText();
+    public boolean getDropDownSelectedTxt(String option) {
+        List<WebElement> listOfOptions = getDropDown();
+        String txt = "";
+        for (WebElement op : listOfOptions) {
+            if (op.isSelected()) {
+                log.info("User receives the '" + option + "' from selected drop down menu. ");
+                txt = op.getText();
+                System.out.println(" =====> " + txt + " <===== ");
+                break;
+            }
+        }
+        return txt.equals(option);
     }
 }
 

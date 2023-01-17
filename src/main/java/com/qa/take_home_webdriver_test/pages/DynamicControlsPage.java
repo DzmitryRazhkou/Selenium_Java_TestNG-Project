@@ -72,8 +72,6 @@ public class DynamicControlsPage extends BasePage {
         log.warn("Selenium is waiting for appearing of message. ");
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(MESSAGE));
     }
-
-
 }
 
 
