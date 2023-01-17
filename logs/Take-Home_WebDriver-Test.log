@@ -1,23 +1,141 @@
-2023-01-17 13:39:46,625  INFO [TestNG-test=Selenium Take Home WebDriver-3] BasePage:26 - User navigates on the http://localhost:7080/checkboxes page. 
-2023-01-17 13:39:46,903  INFO [TestNG-test=Selenium Take Home WebDriver-3] BasePage:37 - User clicks on the 'checkbox 1'
-2023-01-17 13:39:46,971  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/login page. 
-2023-01-17 13:39:47,041  INFO [TestNG-test=Selenium Take Home WebDriver-3] BasePage:53 - User undoes click on the 'checkbox 2'
-2023-01-17 13:39:47,081  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:52 - User types an username into username field. 
-2023-01-17 13:39:47,174  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:54 - User types an password into password field. 
-2023-01-17 13:39:47,211  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:56 - User clicks on the 'Login' button. 
-2023-01-17 13:39:47,295  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:62 - User sees an success login message. 
-2023-01-17 13:39:47,666  INFO [TestNG-test=Selenium Take Home WebDriver-2] BasePage:26 - User navigates on the http://localhost:7080/login page. 
-2023-01-17 13:39:47,761  INFO [TestNG-test=Selenium Take Home WebDriver-2] BasePage:52 - User types an username into username field. 
-2023-01-17 13:39:47,846  INFO [TestNG-test=Selenium Take Home WebDriver-2] BasePage:54 - User types an password into password field. 
-2023-01-17 13:39:47,877  INFO [TestNG-test=Selenium Take Home WebDriver-2] BasePage:56 - User clicks on the 'Login' button. 
-2023-01-17 13:39:47,952  INFO [TestNG-test=Selenium Take Home WebDriver-2] BasePage:73 - User sees an invalid password message. 
-2023-01-17 13:39:48,158 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-17 13:39:48,159 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-17 13:39:48,160 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-17 13:39:48,160 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-17 13:39:48,160 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2023-01-17 13:39:48,239 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-17 13:39:48,239 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-17 13:39:48,239 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-17 13:39:48,239 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-17 13:39:48,239 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-17 18:20:36,320  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/login page. 
+2023-01-17 18:20:36,775  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:52 - User types an username into username field. 
+2023-01-17 18:20:37,102  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:54 - User types an password into password field. 
+2023-01-17 18:20:37,214  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:56 - User clicks on the 'Login' button. 
+2023-01-17 18:20:37,626  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:62 - User sees an success login message. 
+2023-01-17 18:20:40,647  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/login page. 
+2023-01-17 18:20:41,053  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:52 - User types an username into username field. 
+2023-01-17 18:20:41,559  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:54 - User types an password into password field. 
+2023-01-17 18:20:41,715  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:56 - User clicks on the 'Login' button. 
+2023-01-17 18:20:42,219  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:73 - User sees an invalid password message. 
+2023-01-17 18:20:45,150  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/checkboxes page. 
+2023-01-17 18:20:45,792  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:37 - User clicks on the 'checkbox 1'
+2023-01-17 18:20:46,152  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:53 - User undoes click on the 'checkbox 2'
+2023-01-17 18:20:49,118  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/context_menu page. 
+2023-01-17 18:20:49,427  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:30 - User performs right click on the hot spot. 
+2023-01-17 18:20:49,754  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:32 - An alert message is raised up. 
+2023-01-17 18:20:49,773  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User accepts the alert message. 
+2023-01-17 18:20:52,971  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/drag_and_drop page. 
+2023-01-17 18:20:53,255  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:35 - User takes a 'Box B' and drops on the 'Box A'. 
+2023-01-17 18:20:53,743  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:40 - The 'Box A' and 'Box B' are displayed. 
+2023-01-17 18:20:53,935  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:43 - The texts of the boxes have been switched. 
+2023-01-17 18:20:56,605  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/dropdown page. 
+2023-01-17 18:20:57,017  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User selects the 'Option 1' from drop down menu. 
+2023-01-17 18:20:57,185  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:44 - User receives the 'Option 1' from selected drop down menu. 
+2023-01-17 18:20:57,222  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User selects the 'Option 2' from drop down menu. 
+2023-01-17 18:20:57,280  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:44 - User receives the 'Option 2' from selected drop down menu. 
+2023-01-17 18:20:59,886  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/dynamic_content?with_content=static page. 
+2023-01-17 18:21:00,235  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:00,280  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:00,298  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:00,333  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:00,355  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:00,371  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:00,385  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:58 - User refreshes a web page
+2023-01-17 18:21:00,504  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:00,522  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:00,538  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:00,568  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:00,583  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:00,597  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:03,510  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/dynamic_content?with_content=static page. 
+2023-01-17 18:21:03,855  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:03,901  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:03,924  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:03,962  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:03,993  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:04,008  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:04,022  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:58 - User refreshes a web page
+2023-01-17 18:21:04,147  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:04,174  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:04,193  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:39 - User receives the list of images. 
+2023-01-17 18:21:04,216  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:04,232  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:04,245  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User receives the list of contents. 
+2023-01-17 18:21:07,195  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/dynamic_controls page. 
+2023-01-17 18:21:07,830  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:58 - User clicks on the checkbox. 
+2023-01-17 18:21:08,039  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:63 - User clicks on the 'Remove/Add' button. 
+2023-01-17 18:21:08,168  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:65 - Selenium is waiting for appearing of message. 
+2023-01-17 18:21:11,301  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:48 - User sees 'It's gone!'. 
+2023-01-17 18:21:11,391  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:63 - User clicks on the 'Remove/Add' button. 
+2023-01-17 18:21:11,432  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:65 - Selenium is waiting for appearing of message. 
+2023-01-17 18:21:14,546  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:48 - User sees 'It's back!'. 
+2023-01-17 18:21:14,617  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:70 - User clicks on the 'Enable/Disable' button. 
+2023-01-17 18:21:14,662  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:72 - Selenium is waiting for appearing of message. 
+2023-01-17 18:21:17,751  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:48 - User sees 'It's enabled!'. 
+2023-01-17 18:21:17,810  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:70 - User clicks on the 'Enable/Disable' button. 
+2023-01-17 18:21:17,845  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:72 - Selenium is waiting for appearing of message. 
+2023-01-17 18:21:20,976  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:48 - User sees 'It's disabled!'. 
+2023-01-17 18:21:23,944  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/dynamic_loading/2 page. 
+2023-01-17 18:21:24,216  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:45 - User clicks on the 'Start' button. 
+2023-01-17 18:21:24,483  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Selenium is waiting for appearing of message. 
+2023-01-17 18:21:29,703  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:35 - User can see 'Hello World!'. 
+2023-01-17 18:21:32,480  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/download page. 
+2023-01-17 18:21:32,834  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User is searching the 'some-file.txt' list of file links. 
+2023-01-17 18:21:32,853  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:35 - User clicks on the file link for downloading file. 
+2023-01-17 18:21:33,146  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:44 - User is waiting while file downloads. 
+2023-01-17 18:21:38,473  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/upload page. 
+2023-01-17 18:21:38,841 DEBUG [TestNG-test=Selenium Take Home WebDriver-1] BasePage:41 - User click on the 'Choose file' button for uploading file. 
+2023-01-17 18:21:38,996  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:43 - User clicks on the 'Upload' button. 
+2023-01-17 18:21:39,349  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:49 - User can see 'File Uploaded!'. 
+2023-01-17 18:21:42,582  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/floating_menu page. 
+2023-01-17 18:21:42,971  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:32 - User scrolls page down. 
+2023-01-17 18:21:43,171  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - Floating menu is displayed. 
+2023-01-17 18:21:43,171  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:38 - User scrolls page up. 
+2023-01-17 18:21:43,269  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - Floating menu is displayed. 
+2023-01-17 18:21:46,350  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/iframe page. 
+2023-01-17 18:21:51,340  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - User clicks on the cross for closing alert
+2023-01-17 18:21:51,989  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:52 - User switch to the iFrame. 
+2023-01-17 18:21:52,107  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:40 - User clears input box. 
+2023-01-17 18:21:52,145  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:42 - User sends a text into input box. 
+2023-01-17 18:21:53,588  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:59 - User receives 'Vanuatu' from input box. 
+2023-01-17 18:21:56,418  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/hovers page. 
+2023-01-17 18:21:56,746  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:35 - User makes mouse hover. 
+2023-01-17 18:21:56,984  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:35 - User makes mouse hover. 
+2023-01-17 18:21:57,204  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:35 - User makes mouse hover. 
+2023-01-17 18:21:57,384  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:44 - User can see figures texts. 
+2023-01-17 18:22:00,232  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/javascript_alerts page. 
+2023-01-17 18:22:00,639  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:40 - User clicks on the 'Click for JS Alert' button. 
+2023-01-17 18:22:00,747  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:64 - User receives 'I am a JS Alert' message. 
+2023-01-17 18:22:00,870  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:57 - User receives 'You successfuly clicked an alert' message. 
+2023-01-17 18:22:00,907  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:45 - User clicks on the 'Click for JS Confirm' button. 
+2023-01-17 18:22:00,985  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:64 - User receives 'I am a JS Confirm' message. 
+2023-01-17 18:22:01,003  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:57 - User receives 'You clicked: Ok' message. 
+2023-01-17 18:22:01,027  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:50 - User clicks on the 'Click for JS Prompt' button. 
+2023-01-17 18:22:01,080  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:69 - User sends 'Conroy, Upton and Ward' to the JS prompt. 
+2023-01-17 18:22:01,122  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:57 - User receives 'You entered: Conroy, Upton and Ward' message. 
+2023-01-17 18:22:03,939  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/javascript_error page. 
+2023-01-17 18:22:06,786  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/windows page. 
+2023-01-17 18:22:07,062  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:29 - User clicks on the 'Click Here' link for opening new window. 
+2023-01-17 18:22:10,444  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/notification_message_rendered page. 
+2023-01-17 18:22:10,711  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:11,229  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:11,405  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:11,548  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:11,726  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:11,887  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:12,025  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:12,174  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:12,325  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:12,464  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:12,609  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
+2023-01-17 18:22:12,733  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-17 18:22:12,734  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-17 18:22:12,734  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-17 18:22:12,734  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-17 18:22:12,734  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-17 18:22:12,734  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-17 18:22:12,734  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
+2023-01-17 18:22:12,734  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
+2023-01-17 18:22:12,735  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
+2023-01-17 18:22:12,735  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
+2023-01-17 18:22:13,026 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-17 18:22:13,027 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-17 18:22:13,028 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-17 18:22:13,029 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-17 18:22:13,029 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-17 18:22:13,334 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-17 18:22:13,335 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-17 18:22:13,335 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-17 18:22:13,336 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-17 18:22:13,336 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

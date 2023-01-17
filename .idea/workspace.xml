@@ -7,7 +7,38 @@
     <list default="true" id="29c7972d-9606-4948-be80-83bbe2a37aaf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Take-Home_WebDriver-Test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.17 13:36:04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/ExtentReporter_2023.01.17 13:39:48.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/MouseHoverPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/take_home_webdriver_test/pages/MouseHoverPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuiteParallelRunner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuiteRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuiteRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/CheckBoxesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/ContextMenuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/DragAndDropTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/DropDownTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/DynamicContentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/DynamicControlsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/DynamicLoadingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/FileDownloadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/FileUploadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/FloatingMenuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/IframeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/JavaScriptAlertsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/JavaScriptErrorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/LoginFailureTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/LoginSuccessTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/NotificationMessageTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/OpenNewTabTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriver1Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriver2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriver3Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/take_home_webdriver_test/tests/TakeHomeWebDriverTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +93,7 @@
       <recent name="com.qa.take_home_webdriver_test.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuite_Runner.xml">
+  <component name="RunManager" selected="TestNG./Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuiteRunner.xml">
     <configuration name="TakeHomeWebDriverTest.loginSuccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Take-Home_WebDriver-Test" />
       <extension name="coverage">
@@ -81,9 +112,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testRunner/singleRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Take-Home_WebDriver-Test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testRunner/singleRunner.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -91,9 +122,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuiteParallelRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Take-Home_WebDriver-Test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuiteParallelRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -123,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuite_Runner.xml" />
         <item itemvalue="TestNG./Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuiteRunner.xml" />
+        <item itemvalue="TestNG./Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuiteParallelRunner.xml" />
+        <item itemvalue="TestNG./Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/smokeSuite_Runner.xml" />
         <item itemvalue="TestNG./Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testng_runner/singleRunner.xml" />
         <item itemvalue="TestNG.TakeHomeWebDriverTest.loginSuccessTest" />
-        <item itemvalue="TestNG./Users/dzmitryrazhkou/Documents/Automation/Take-Home_WebDriver-Test/src/test/java/com/qa/take_home_webdriver_test/testRunner/singleRunner.xml" />
       </list>
     </recent_temporary>
   </component>

@@ -2,6 +2,7 @@ package com.qa.take_home_webdriver_test.tests;
 
 import com.github.javafaker.Faker;
 import com.qa.take_home_webdriver_test.basetest.BaseTest;
+import com.qa.take_home_webdriver_test.listeners.RetryAnalyzer;
 import com.qa.take_home_webdriver_test.pages.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -86,7 +87,7 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertTrue(dropDownPage.getDropDownSelectedTxt(option2));
     }
 
-    @Test(priority = 7, groups = {"Smoke"}, description = "User handles dynamic content. ")
+    @Test(priority = 7, groups = {"Smoke"}, description = "User handles dynamic content. ", retryAnalyzer = RetryAnalyzer.class)
     public void dynamicContentTest() {
         DynamicContentPage dynamicContentPage = new DynamicContentPage(driver);
         String dynamicContentUrl = prop.getProperty("dynamicContentUrl");
@@ -188,13 +189,13 @@ public class TakeHomeWebDriverTest extends BaseTest {
         Assert.assertEquals(iframePage.getInputBoxTxt(), proposalTxt);
     }
 
-    @Test(enabled = false, groups = {"Smoke"}, description = "User handles mouse hover. ")
+    @Test(priority = 14, groups = {"Smoke"}, description = "User handles mouse hover. ")
     public void mouseHoverTest() {
         MouseHoverPage mouseHoverPage = new MouseHoverPage(driver);
         String mouseHoverUrl = prop.getProperty("mouseHoverUrl");
 
         mouseHoverPage.navigateToPage(mouseHoverUrl);
-        mouseHoverPage.areCaptionsDisplayed();
+        Assert.assertTrue(mouseHoverPage.areFiguresDisplayed());
     }
 
     @Test(priority = 15, groups = {"Smoke"}, description = "User handles JavaScript alerts. ")

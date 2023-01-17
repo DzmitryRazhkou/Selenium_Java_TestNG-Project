@@ -17,35 +17,33 @@ public class MouseHoverPage extends BasePage {
     }
 
     // LOCATORS FOR WEB ELEMENTS:
-    private static final By USERS = By.xpath("(//div[@class='figure'])");
-    private static final By USERS_TXT = By.xpath("(//div[@class='figcaption'])");
+    private static final By USERS = By.cssSelector("div[class='figure']");
 
     // WEB ELEMENTS:
-
-    // METHODS:
-    public boolean areCaptionsDisplayed() {
-        List<WebElement> figures = driver.findElements(USERS);
-        Actions act = new Actions(driver);
-        boolean displayed = true;
-        //Mouse over in every element
-        //if at least one caption is not displayed, the function will return false
-        for (int i = 1; i <= figures.size(); i++) {
-            WebElement fig = driver.findElement(By.xpath(USERS + "[" + i + "]"));
-            act.moveToElement(fig);
-            WebElement figCap = driver.findElement(By.xpath(USERS_TXT + "[" + i + "]"));
-            if (figCap.isDisplayed() && displayed) {
-                displayed = figCap.isDisplayed();
-            }
-        }
-        return displayed;
+    private List<WebElement> getUsers() {
+        wait.until(ExpectedConditions.elementToBeClickable(USERS));
+        return driver.findElements(USERS);
     }
 
-    public void f(){
-        List<WebElement> figures = driver.findElements(USERS);
-        for (int i = 1; i <= figures.size(); i++) {
-            System.out.println(figures.size());
-            }
+    // METHODS:
+    public boolean areFiguresDisplayed() {
+        List<WebElement> listOfFigures = getUsers();
+        Actions actions = new Actions(driver);
+        boolean isDisplayed = true;
+
+        for (WebElement figures : listOfFigures) {
+            log.warn("User makes mouse hover. ");
+            actions.moveToElement(figures).perform();
+            System.out.println(" =====> " + figures.getText() + " <===== ");
+
+            for (WebElement figuresTxt : listOfFigures)
+                if (figuresTxt.isDisplayed() && isDisplayed) {
+                    isDisplayed = figuresTxt.isDisplayed();
+                }
         }
+        log.warn("User can see figures texts. ");
+        return isDisplayed;
+    }
 }
 
 

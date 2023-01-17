@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results retried="1" ignored="0" total="19" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-13T12:52:13 EST" name="Take Home WebDriver Test Smoke Suite" finished-at="2023-01-13T12:52:27 EST" duration-ms="13954">
+  <suite started-at="2023-01-17T18:20:27 EST" name="Take Home WebDriver Test Smoke Suite" finished-at="2023-01-17T18:22:12 EST" duration-ms="104881">
     <groups>
+      <group name="Smoke">
+        <method signature="TakeHomeWebDriverTest.loginSuccessTest()[pri:1, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="loginSuccessTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.loginFailureTest()[pri:2, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="loginFailureTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.checkBoxTest()[pri:3, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="checkBoxTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.contextMenuTest()[pri:4, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="contextMenuTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.dragAndDropTest()[pri:5, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="dragAndDropTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.dropDownTest()[pri:6, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="dropDownTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.dynamicContentTest()[pri:7, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="dynamicContentTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.dynamicControlsTest()[pri:8, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="dynamicControlsTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.dynamicLoadingTest()[pri:9, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="dynamicLoadingTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.fileDownloadTest()[pri:10, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="fileDownloadTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.fileUploadTest()[pri:11, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="fileUploadTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.floatingMenuTest()[pri:12, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="floatingMenuTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.iframeTest()[pri:13, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="iframeTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.mouseHoverTest()[pri:14, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="mouseHoverTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.javaScriptAlertsTest()[pri:15, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="javaScriptAlertsTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.javaScriptErrorTest()[pri:16, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="javaScriptErrorTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.openNewTabTest()[pri:17, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="openNewTabTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+        <method signature="TakeHomeWebDriverTest.notificationMessageTest()[pri:18, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" name="notificationMessageTest" class="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-01-13T12:52:13 EST" name="Selenium Take Home WebDriver" finished-at="2023-01-13T12:52:27 EST" duration-ms="13954">
+    <test started-at="2023-01-17T18:20:27 EST" name="Selenium Take Home WebDriver" finished-at="2023-01-17T18:22:12 EST" duration-ms="104881">
       <class name="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest">
-        <test-method is-config="true" signature="readProperties()[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:13 EST" name="readProperties" finished-at="2023-01-13T12:52:13 EST" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="readProperties()[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:27 EST" name="readProperties" finished-at="2023-01-17T18:20:27 EST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readProperties -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:13 EST" name="startUp" finished-at="2023-01-13T12:52:21 EST" duration-ms="7926" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:28 EST" name="startUp" finished-at="2023-01-17T18:20:36 EST" duration-ms="8028" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,22 +42,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="loginSuccessTest()[pri:1, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:21 EST" name="loginSuccessTest" finished-at="2023-01-13T12:52:22 EST" duration-ms="1572" status="PASS">
+        <test-method signature="loginSuccessTest()[pri:1, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:36 EST" name="loginSuccessTest" description="User with valid credentials can log in successfully." finished-at="2023-01-17T18:20:37 EST" duration-ms="1682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSuccessTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:22 EST" name="tearDown" finished-at="2023-01-13T12:52:23 EST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:37 EST" name="tearDown" finished-at="2023-01-17T18:20:37 EST" duration-ms="125" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginSuccessTest status=SUCCESS method=TakeHomeWebDriverTest.loginSuccessTest()[pri:1, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea] output={null}]]]>
+                <![CDATA[[TestResult name=loginSuccessTest status=SUCCESS method=TakeHomeWebDriverTest.loginSuccessTest()[pri:1, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:23 EST" name="startUp" finished-at="2023-01-13T12:52:25 EST" duration-ms="2672" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:37 EST" name="startUp" finished-at="2023-01-17T18:20:40 EST" duration-ms="2676" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,15 +68,485 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="loginFailureTest()[pri:2, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:25 EST" name="loginFailureTest" finished-at="2023-01-13T12:52:27 EST" duration-ms="1299" status="PASS">
+        <test-method signature="loginFailureTest()[pri:2, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:40 EST" name="loginFailureTest" description="User with invalid credentials can&#039;t log in successfully." finished-at="2023-01-17T18:20:42 EST" duration-ms="1764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginFailureTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea]" started-at="2023-01-13T12:52:27 EST" name="tearDown" finished-at="2023-01-13T12:52:27 EST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:42 EST" name="tearDown" finished-at="2023-01-17T18:20:42 EST" duration-ms="114" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginFailureTest status=SUCCESS method=TakeHomeWebDriverTest.loginFailureTest()[pri:2, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@2e3967ea] output={null}]]]>
+                <![CDATA[[TestResult name=loginFailureTest status=SUCCESS method=TakeHomeWebDriverTest.loginFailureTest()[pri:2, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:42 EST" name="startUp" finished-at="2023-01-17T18:20:45 EST" duration-ms="2591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="checkBoxTest()[pri:3, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:45 EST" name="checkBoxTest" description="User checks/unchecks checkboxes." finished-at="2023-01-17T18:20:46 EST" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:46 EST" name="tearDown" finished-at="2023-01-17T18:20:46 EST" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkBoxTest status=SUCCESS method=TakeHomeWebDriverTest.checkBoxTest()[pri:3, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:46 EST" name="startUp" finished-at="2023-01-17T18:20:49 EST" duration-ms="2555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="contextMenuTest()[pri:4, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:49 EST" name="contextMenuTest" description="User performs right-click and handles a javascript alert." finished-at="2023-01-17T18:20:49 EST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextMenuTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:49 EST" name="tearDown" finished-at="2023-01-17T18:20:49 EST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contextMenuTest status=SUCCESS method=TakeHomeWebDriverTest.contextMenuTest()[pri:4, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:49 EST" name="startUp" finished-at="2023-01-17T18:20:52 EST" duration-ms="2757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="dragAndDropTest()[pri:5, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:52 EST" name="dragAndDropTest" description="User does drag and drop boxes ." finished-at="2023-01-17T18:20:53 EST" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:53 EST" name="tearDown" finished-at="2023-01-17T18:20:54 EST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dragAndDropTest status=SUCCESS method=TakeHomeWebDriverTest.dragAndDropTest()[pri:5, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:54 EST" name="startUp" finished-at="2023-01-17T18:20:56 EST" duration-ms="2531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="dropDownTest()[pri:6, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:56 EST" name="dropDownTest" description="User selects options from drop down menu ." finished-at="2023-01-17T18:20:57 EST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:57 EST" name="tearDown" finished-at="2023-01-17T18:20:57 EST" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropDownTest status=SUCCESS method=TakeHomeWebDriverTest.dropDownTest()[pri:6, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:57 EST" name="startUp" finished-at="2023-01-17T18:20:59 EST" duration-ms="2464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method retried="true" signature="dynamicContentTest()[pri:7, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:20:59 EST" name="dynamicContentTest" description="User handles dynamic content. " finished-at="2023-01-17T18:21:00 EST" duration-ms="764" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [[http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg, http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-3.jpg, http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg]] but found [[http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg, http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-3.jpg, http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg]]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [[http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg, http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-3.jpg, http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg]] but found [[http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg, http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-3.jpg, http://localhost:7080/img/avatars/Original-Facebook-Geek-Profile-Avatar-5.jpg]]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.assertNotEquals(Assert.java:2050)
+at org.testng.Assert.assertNotEquals(Assert.java:2059)
+at com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest.dynamicContentTest(TakeHomeWebDriverTest.java:103)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicContentTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:00 EST" name="tearDown" finished-at="2023-01-17T18:21:00 EST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dynamicContentTest status=SKIP method=TakeHomeWebDriverTest.dynamicContentTest()[pri:7, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:00 EST" name="startUp" finished-at="2023-01-17T18:21:03 EST" duration-ms="2742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="dynamicContentTest()[pri:7, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:03 EST" name="dynamicContentTest" description="User handles dynamic content. " finished-at="2023-01-17T18:21:04 EST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicContentTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:04 EST" name="tearDown" finished-at="2023-01-17T18:21:04 EST" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dynamicContentTest status=SUCCESS method=TakeHomeWebDriverTest.dynamicContentTest()[pri:7, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:04 EST" name="startUp" finished-at="2023-01-17T18:21:07 EST" duration-ms="2778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="dynamicControlsTest()[pri:8, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:07 EST" name="dynamicControlsTest" description="User handles dynamic controls. " finished-at="2023-01-17T18:21:21 EST" duration-ms="13867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicControlsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:21 EST" name="tearDown" finished-at="2023-01-17T18:21:21 EST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dynamicControlsTest status=SUCCESS method=TakeHomeWebDriverTest.dynamicControlsTest()[pri:8, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:21 EST" name="startUp" finished-at="2023-01-17T18:21:23 EST" duration-ms="2740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="dynamicLoadingTest()[pri:9, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:23 EST" name="dynamicLoadingTest" description="User handles dynamic loading page ." finished-at="2023-01-17T18:21:29 EST" duration-ms="5873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicLoadingTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:29 EST" name="tearDown" finished-at="2023-01-17T18:21:29 EST" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dynamicLoadingTest status=SUCCESS method=TakeHomeWebDriverTest.dynamicLoadingTest()[pri:9, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:29 EST" name="startUp" finished-at="2023-01-17T18:21:32 EST" duration-ms="2542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="fileDownloadTest()[pri:10, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:32 EST" name="fileDownloadTest" description="User downloads the txt file. " finished-at="2023-01-17T18:21:35 EST" duration-ms="2687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileDownloadTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:35 EST" name="tearDown" finished-at="2023-01-17T18:21:35 EST" duration-ms="117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fileDownloadTest status=SUCCESS method=TakeHomeWebDriverTest.fileDownloadTest()[pri:10, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:35 EST" name="startUp" finished-at="2023-01-17T18:21:38 EST" duration-ms="3156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="fileUploadTest()[pri:11, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:38 EST" name="fileUploadTest" description="User uploads the txt file. " finished-at="2023-01-17T18:21:39 EST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:39 EST" name="tearDown" finished-at="2023-01-17T18:21:39 EST" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fileUploadTest status=SUCCESS method=TakeHomeWebDriverTest.fileUploadTest()[pri:11, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:39 EST" name="startUp" finished-at="2023-01-17T18:21:42 EST" duration-ms="2977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="floatingMenuTest()[pri:12, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:42 EST" name="floatingMenuTest" description="User handles floating menu. " finished-at="2023-01-17T18:21:43 EST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- floatingMenuTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:43 EST" name="tearDown" finished-at="2023-01-17T18:21:43 EST" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=floatingMenuTest status=SUCCESS method=TakeHomeWebDriverTest.floatingMenuTest()[pri:12, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:43 EST" name="startUp" finished-at="2023-01-17T18:21:46 EST" duration-ms="2728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="iframeTest()[pri:13, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:46 EST" name="iframeTest" description="User handles iframe web element. " finished-at="2023-01-17T18:21:53 EST" duration-ms="7460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframeTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:53 EST" name="tearDown" finished-at="2023-01-17T18:21:53 EST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=iframeTest status=SUCCESS method=TakeHomeWebDriverTest.iframeTest()[pri:13, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:53 EST" name="startUp" finished-at="2023-01-17T18:21:56 EST" duration-ms="2605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="mouseHoverTest()[pri:14, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:56 EST" name="mouseHoverTest" description="User handles mouse hover. " finished-at="2023-01-17T18:21:57 EST" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:57 EST" name="tearDown" finished-at="2023-01-17T18:21:57 EST" duration-ms="118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mouseHoverTest status=SUCCESS method=TakeHomeWebDriverTest.mouseHoverTest()[pri:14, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:21:57 EST" name="startUp" finished-at="2023-01-17T18:22:00 EST" duration-ms="2573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="javaScriptAlertsTest()[pri:15, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:00 EST" name="javaScriptAlertsTest" description="User handles JavaScript alerts. " finished-at="2023-01-17T18:22:01 EST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptAlertsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:01 EST" name="tearDown" finished-at="2023-01-17T18:22:01 EST" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=javaScriptAlertsTest status=SUCCESS method=TakeHomeWebDriverTest.javaScriptAlertsTest()[pri:15, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:01 EST" name="startUp" finished-at="2023-01-17T18:22:03 EST" duration-ms="2638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="javaScriptErrorTest()[pri:16, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:03 EST" name="javaScriptErrorTest" description="User handles JavaScript error. " finished-at="2023-01-17T18:22:04 EST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptErrorTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:04 EST" name="tearDown" finished-at="2023-01-17T18:22:04 EST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=javaScriptErrorTest status=SUCCESS method=TakeHomeWebDriverTest.javaScriptErrorTest()[pri:16, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:04 EST" name="startUp" finished-at="2023-01-17T18:22:06 EST" duration-ms="2548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="openNewTabTest()[pri:17, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:06 EST" name="openNewTabTest" description="User handles opening a new tab. " finished-at="2023-01-17T18:22:07 EST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openNewTabTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:07 EST" name="tearDown" finished-at="2023-01-17T18:22:07 EST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openNewTabTest status=SUCCESS method=TakeHomeWebDriverTest.openNewTabTest()[pri:17, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:07 EST" name="startUp" finished-at="2023-01-17T18:22:10 EST" duration-ms="2754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="notificationMessageTest()[pri:18, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:10 EST" name="notificationMessageTest" description="User handles notification messages. " finished-at="2023-01-17T18:22:12 EST" duration-ms="2323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notificationMessageTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6]" started-at="2023-01-17T18:22:12 EST" name="tearDown" finished-at="2023-01-17T18:22:12 EST" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=notificationMessageTest status=SUCCESS method=TakeHomeWebDriverTest.notificationMessageTest()[pri:18, instance:com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest@52719fb6] output={null}]]]>
               </value>
             </param>
           </params>

@@ -16,7 +16,7 @@
                     <include name="contextMenuTest"/>
                     <include name="dragAndDropTest"/>
                     <include name="dropDownTest"/>
-
+                    <include name="mouseHoverTest"/>
                     <include name="dynamicContentTest"/>
                     <include name="dynamicControlsTest"/>
                     <include name="dynamicLoadingTest"/>

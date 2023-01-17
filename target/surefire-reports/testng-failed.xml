@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Take Home WebDriver Test Smoke Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.qa.take_home_webdriver_test.listeners.Listeners"/>
+    <listener class-name="com.qa.take_home_webdriver_test.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="Selenium Take Home WebDriver(failed)" verbose="0">
+    <classes>
+      <class name="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest">
+        <methods>
+          <include name="startUp"/>
+          <include name="readProperties"/>
+          <include name="tearDown"/>
+          <include name="dynamicContentTest"/>
+        </methods>
+      </class> <!-- com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest -->
+    </classes>
+  </test> <!-- Selenium Take Home WebDriver(failed) -->
+</suite> <!-- Failed suite [Take Home WebDriver Test Smoke Suite] -->
