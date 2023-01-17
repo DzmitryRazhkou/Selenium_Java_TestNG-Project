@@ -1,32 +1,23 @@
-2023-01-16 19:21:34,771  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/notification_message_rendered page. 
-2023-01-16 19:21:34,815  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:35,024  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:35,169  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:35,267  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:35,376  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:35,487  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:35,585  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:35,680  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:35,773  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:35,867  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:35,987  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:33 - User clicks on the 'Click Here' link. 
-2023-01-16 19:21:36,078  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
-2023-01-16 19:21:36,078  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
-2023-01-16 19:21:36,078  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
-2023-01-16 19:21:36,078  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
-2023-01-16 19:21:36,078  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
-2023-01-16 19:21:36,078  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action successful'. 
-2023-01-16 19:21:36,078  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
-2023-01-16 19:21:36,078  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
-2023-01-16 19:21:36,079  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
-2023-01-16 19:21:36,079  WARN [TestNG-test=Selenium Take Home WebDriver-1] BasePage:47 - Msg appears 'Action unsuccesful, please try again'. 
-2023-01-16 19:21:36,242 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-16 19:21:36,242 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-16 19:21:36,243 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-16 19:21:36,243 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-16 19:21:36,243 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-2023-01-16 19:21:36,323 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-2023-01-16 19:21:36,323 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-2023-01-16 19:21:36,323 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-2023-01-16 19:21:36,323 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-2023-01-16 19:21:36,323 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-17 13:39:46,625  INFO [TestNG-test=Selenium Take Home WebDriver-3] BasePage:26 - User navigates on the http://localhost:7080/checkboxes page. 
+2023-01-17 13:39:46,903  INFO [TestNG-test=Selenium Take Home WebDriver-3] BasePage:37 - User clicks on the 'checkbox 1'
+2023-01-17 13:39:46,971  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:26 - User navigates on the http://localhost:7080/login page. 
+2023-01-17 13:39:47,041  INFO [TestNG-test=Selenium Take Home WebDriver-3] BasePage:53 - User undoes click on the 'checkbox 2'
+2023-01-17 13:39:47,081  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:52 - User types an username into username field. 
+2023-01-17 13:39:47,174  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:54 - User types an password into password field. 
+2023-01-17 13:39:47,211  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:56 - User clicks on the 'Login' button. 
+2023-01-17 13:39:47,295  INFO [TestNG-test=Selenium Take Home WebDriver-1] BasePage:62 - User sees an success login message. 
+2023-01-17 13:39:47,666  INFO [TestNG-test=Selenium Take Home WebDriver-2] BasePage:26 - User navigates on the http://localhost:7080/login page. 
+2023-01-17 13:39:47,761  INFO [TestNG-test=Selenium Take Home WebDriver-2] BasePage:52 - User types an username into username field. 
+2023-01-17 13:39:47,846  INFO [TestNG-test=Selenium Take Home WebDriver-2] BasePage:54 - User types an password into password field. 
+2023-01-17 13:39:47,877  INFO [TestNG-test=Selenium Take Home WebDriver-2] BasePage:56 - User clicks on the 'Login' button. 
+2023-01-17 13:39:47,952  INFO [TestNG-test=Selenium Take Home WebDriver-2] BasePage:73 - User sees an invalid password message. 
+2023-01-17 13:39:48,158 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-17 13:39:48,159 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-17 13:39:48,160 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-17 13:39:48,160 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-17 13:39:48,160 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2023-01-17 13:39:48,239 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2023-01-17 13:39:48,239 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2023-01-17 13:39:48,239 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2023-01-17 13:39:48,239 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2023-01-17 13:39:48,239 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Take Home WebDriver Test Smoke Suite" parallel="classes" thread-count="3">
+    <listeners>
+        <listener class-name="com.qa.take_home_webdriver_test.listeners.Listeners"/>
+        <listener class-name="com.qa.take_home_webdriver_test.listeners.ExtentReportListener"/>
+    </listeners>
+
+    <parameter name="browser" value="chrome"/>
+    <test name="Selenium Take Home WebDriver">
+        <classes>
+            <class name="com.qa.take_home_webdriver_test.tests.LoginSuccessTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.LoginFailureTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.CheckBoxesTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.ContextMenuTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.DragAndDropTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.DropDownTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.DynamicContentTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.DynamicControlsTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.DynamicLoadingTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.FileDownloadTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.FileUploadTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.FloatingMenuTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.IframeTest"/>
+
+            <class name="com.qa.take_home_webdriver_test.tests.JavaScriptAlertsTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.JavaScriptErrorTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.OpenNewTabTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.OpenNewTabTest"/>
+            <class name="com.qa.take_home_webdriver_test.tests.NotificationMessageTest"/>
+        </classes>
+    </test>
+</suite>

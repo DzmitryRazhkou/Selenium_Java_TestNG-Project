@@ -10,10 +10,23 @@
         <classes>
             <class name="com.qa.take_home_webdriver_test.tests.TakeHomeWebDriverTest">
                 <methods>
-                    <exclude name="loginSuccessTest"/>
-                    <exclude name="loginFailureTest"/>
-                    <exclude name="checkBoxTest"/>
-                    <exclude name="contextMenuTest"/>
+                    <include name="loginSuccessTest"/>
+                    <include name="loginFailureTest"/>
+                    <include name="checkBoxTest"/>
+                    <include name="contextMenuTest"/>
+                    <include name="dragAndDropTest"/>
+                    <include name="dropDownTest"/>
+
+                    <include name="dynamicContentTest"/>
+                    <include name="dynamicControlsTest"/>
+                    <include name="dynamicLoadingTest"/>
+                    <include name="fileDownloadTest"/>
+                    <include name="fileUploadTest"/>
+                    <include name="floatingMenuTest"/>
+                    <include name="iframeTest"/>
+                    <include name="javaScriptAlertsTest"/>
+                    <include name="javaScriptErrorTest"/>
+                    <include name="openNewTabTest"/>
                     <include name="notificationMessageTest"/>
                 </methods>
             </class>
